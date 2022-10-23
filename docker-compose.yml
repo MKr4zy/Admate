@@ -1,0 +1,30 @@
+# credits
+# https://github.com/itzg/docker-minecraft-server
+
+version: '3.8'
+
+services:
+  mc:
+    container_name: admate
+    image: itzg/minecraft-server:${IMAGE_TAG:-java17}
+    volumes:
+    # mounts from directory, this is where your data is
+    - ./modpacks:/modpacks:ro
+    - ./data:/data
+    environment:
+      EULA: "true"
+      #TYPE: CURSEFORGE
+      #if you downloaded manually
+      CF_SERVER_MOD: /modpacks/${MODPACK:-Admate_0.3_server_pack.zip}
+      #direct download from Curseforge
+      #CF_SERVER_MOD: https://mediafilez.forgecdn.net/files/3984/99/Admate_0.3_server_pack.zip
+    ports: # Port specified in server-properties
+      - "25566:25565"
+    deploy: # limiting resources if you want to
+        resources:
+            limits:
+              cpus: 1
+              memory: 3G
+volumes:
+  modpacks:
+  data:
