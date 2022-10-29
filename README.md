@@ -9,8 +9,8 @@ As more mods get Updated to Minecraft Version 1.19, they will be added.
 
 # Todo
 
-- [ ] Downgrade Server to 1.18.2
-- [ ] Test Docker setup with new version
+- [x] Downgrade Server to 1.18.2
+- [x] Test Docker setup with new version -> needs more than 4 GB's of RAM
 - [ ] Simple questline
 
 # Server Installation
