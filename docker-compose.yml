@@ -15,16 +15,16 @@ services:
       EULA: "true"
       TYPE: CURSEFORGE
       #! if you downloaded manually
-      CF_SERVER_MOD: /modpacks/${MODPACK:-Admate_server_pack_1.18.2_1.0.zip}
+      CF_SERVER_MOD: /modpacks/${MODPACK:-Admate_server_pack_1.18.2_1.1.zip}
       #! direct download from Curseforge
       #CF_SERVER_MOD: https://mediafilez.forgecdn.net/files/4049/187/Admate_server_pack_1.18.2_1.0.zip
     ports: #! Port specified in server-properties
       - "25566:25565"
-    deploy: #! limiting resources if you want to
-        resources:
-            limits:
-              cpus: 1
-              memory: 3G
+#    deploy: #! limiting resources if you want to
+#        resources:
+#            limits:
+#              cpus: 2
+#              memory: 5G # Recommended atleast 4 Gigs of RAM
 volumes:
   modpacks:
   data:
