@@ -1,8 +1,6 @@
 # credits
 # https://github.com/itzg/docker-minecraft-server
-
 version: '3.8'
-
 services:
   mc:
     container_name: admate
