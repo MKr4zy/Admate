@@ -1,0 +1,10 @@
+{
+	id: "73FA0048FB9630AC"
+	group: ""
+	order_index: 0
+	filename: "basics"
+	title: "Basics"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

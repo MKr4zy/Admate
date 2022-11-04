@@ -1,0 +1,69 @@
+{
+	id: "4FBF6CFFBD0A942B"
+	group: "34A84AFE30AFE050"
+	order_index: 0
+	filename: "minecolonies"
+	title: "MineColonies"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Supply Chain"
+			x: -3.5d
+			y: -2.5d
+			description: ["Start your Journey"]
+			id: "34A10C7193AE2A29"
+			tasks: [{
+				id: "75D02D7E54759F9C"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecolonies:supplycampdeployer"
+								Count: 1b
+							}
+							{
+								id: "minecolonies:supplychestdeployer"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2186DED44F177143"
+					type: "toast"
+					title: "Start your Empire"
+					icon: "minecolonies:supplycampdeployer"
+					description: "Place an Camp of MineColonies"
+				}
+				{
+					id: "675683AF9A4E1748"
+					type: "item"
+					item: "minecraft:cookie"
+					count: 4
+				}
+				{
+					id: "23FB2BEC2A356E8E"
+					type: "item"
+					item: "cfm:stripped_oak_chair"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["34A10C7193AE2A29"]
+			id: "5A121B0FC8C3EEAD"
+			tasks: [{
+				id: "6EFAD6E0B5AD9A6C"
+				type: "item"
+				item: "structurize:sceptergold"
+			}]
+		}
+	]
+}
