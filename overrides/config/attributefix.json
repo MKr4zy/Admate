@@ -143,6 +143,17 @@
         "value": 10000000
       }
     },
+    "minecolonies:mc_mob_damage": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
     "apotheosis:draw_speed": {
       "enabled": false,
       "min": {

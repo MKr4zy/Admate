@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## Version 1.2.1
+
+### Configs
+- Changed:config\debugify.json "MC-147605": from true to false
+- Changed: config\ftbquests added questline
+
+
 ## Version: 1.2
 
 ### Mods
@@ -35,7 +42,6 @@
 - Changed: config\rubidium_extras.toml "Hide JEI Until Searching" true to false
 - Changed: config\jei-client.toml reduce rows and columns, enable SlowMemSearch
 - Changed: options.txt to enableVsync:false
-- Added: config\ftbquests\ from Odyssey-3
 
 ### Oregeneration
 - Changed: config\Mekanism\world.toml to disable all ore gen but Fluorite and Salt
