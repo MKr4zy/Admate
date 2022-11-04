@@ -9,6 +9,7 @@ Right now this Modpack features lots of new Dimension, Biomes and Structures to 
 # Todo
 
 - [ ] Simple questline [Branch](https://github.com/MKr4zy/Admate/tree/questline)
+- [ ] Check if theres any stale-depency-library Mods
 
 # Setup
 
