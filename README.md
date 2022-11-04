@@ -5,21 +5,25 @@ This Modpack was created, because my friends and I needed something to play, and
 
 Right now this Modpack features lots of new Dimension, Biomes and Structures to explore. Theres also a bunch of Tech mods such as Applied Energistics, FTB Industrial Contraptions. And for the magic side of things theres Mahou Tsukai and Ars Nouveau.
 
-As more mods get Updated to Minecraft Version 1.19, they will be added.
 
 # Todo
 
-- [x] Downgrade Server to 1.18.2
-- [x] Test Docker setup with new version -> needs more than 4 GB's of RAM
-- [ ] Simple questline
+- [ ] Simple questline [Branch](https://github.com/MKr4zy/Admate/tree/questline)
 
-# Server Installation
+# Setup
 
-## Docker
-see docker-compose.yml
+## Client Installation 
+Download the newest stable build from CurseForge (link down below)
 
-## Bare metal
-Requires Java 17
+## Server Installation
+
+### Docker
+see [Docker-Compose File](docker-compose.yml)
+
+### Bare metal
+Requires Java 17!
+
+Download Serverpack from CurseForge
 
 
 # Links
