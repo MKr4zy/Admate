@@ -1,0 +1,126 @@
+{
+	id: "371022A1C3AE4A80"
+	group: "22228E60597C902A"
+	order_index: 0
+	filename: "points_of_interest"
+	title: "Points of interest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Visiting a ship"
+			icon: "byg:ebony_boat"
+			x: -0.5d
+			y: 0.0d
+			description: [""]
+			id: "3CEF5019DAB032CB"
+			tasks: [{
+				id: "63574F8CAA5BB5DB"
+				type: "advancement"
+				icon: "smallships:cannon_item"
+				advancement: "dungeons_arise:find_illager_corsair_or_illager_galley"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0A2AA8610D48DFCA"
+					type: "item"
+					item: {
+						id: "minecraft:lingering_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+				}
+				{
+					id: "575AA5A1907FEE07"
+					type: "item"
+					item: "brewinandchewin:saccharine_rum"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			description: ["Kill a Goblin King - this is your fort now"]
+			id: "087DBB455E2AA10C"
+			tasks: [{
+				id: "6E0E1ED6D7BBA363"
+				type: "kill"
+				title: "Take that Castle"
+				icon: {
+					id: "goblinsanddungeons:goblin_crown"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "goblinsanddungeons:goblin_king"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "53A2B7EF5C6BB6C5"
+					type: "item"
+					item: "farmersrespite:green_tea"
+					count: 5
+				}
+				{
+					id: "79B8083030D8DEB7"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			title: "Visiting the modpack creators"
+			x: -0.5d
+			y: -3.5d
+			id: "591287D9B539E48C"
+			tasks: [
+				{
+					id: "7436548DFAC865B2"
+					type: "kill"
+					icon: {
+						id: "reliquary:mob_charm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							entity: "goblinsanddungeons:gob"
+						}
+					}
+					entity: "goblinsanddungeons:gob"
+					value: 2L
+				}
+				{
+					id: "5DA08679CF671BF2"
+					type: "kill"
+					icon: {
+						id: "reliquary:mob_charm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							entity: "goblinsanddungeons:garch"
+						}
+					}
+					entity: "goblinsanddungeons:garch"
+					value: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "7767478F0BB6C0E6"
+					type: "item"
+					item: "ae2:tiny_tnt"
+					count: 15
+				}
+				{
+					id: "72473611992E4855"
+					type: "item"
+					item: "cyclic:apple_emerald"
+				}
+			]
+		}
+	]
+}

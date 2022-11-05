@@ -1,0 +1,39 @@
+{
+	id: "656A466C2CC7939D"
+	group: "22228E60597C902A"
+	order_index: 1
+	filename: "the_abyss"
+	title: "The Abyss"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Keeping you up at night"
+		x: -0.5d
+		y: 0.0d
+		id: "018A78501148B089"
+		tasks: [{
+			id: "43308254832AC01A"
+			type: "dimension"
+			icon: "theabyss:eye_of_abyss"
+			dimension: "theabyss:the_abyss"
+		}]
+		rewards: [
+			{
+				id: "1DC8965BB78912F3"
+				type: "item"
+				item: "theabyss:guide_book"
+			}
+			{
+				id: "1C2178F05A7660DF"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "undergarden:glowing"
+					}
+				}
+			}
+		]
+	}]
+}
