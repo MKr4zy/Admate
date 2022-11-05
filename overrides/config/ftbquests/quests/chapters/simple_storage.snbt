@@ -1,9 +1,10 @@
 {
 	id: "70F30A2AE5496A49"
 	group: "77AA218B1AF1588F"
-	order_index: 0
+	order_index: 1
 	filename: "simple_storage"
 	title: "Simple Storage"
+	icon: "storagenetwork:request"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]

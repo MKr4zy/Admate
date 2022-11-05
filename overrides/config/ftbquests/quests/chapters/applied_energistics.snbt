@@ -1,10 +1,79 @@
 {
 	id: "1B7B483E1A0108EC"
 	group: "77AA218B1AF1588F"
-	order_index: 2
+	order_index: 3
 	filename: "applied_energistics"
 	title: "Applied Energistics"
+	icon: "ae2:controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Find your first Meteorite"
+			x: 1.5d
+			y: -1.5d
+			subtitle: "Big Fallen Rocks from space. hope they didn't destroy a village or something.."
+			description: ["Finding these Meteorites is the key to start Applied Energistics"]
+			id: "73A14FDD0EF223E1"
+			tasks: [{
+				id: "56A8A981273B4954"
+				type: "observation"
+				title: "Meteorite"
+				icon: "ae2:sky_stone_block"
+				timer: 0L
+				observe_type: 0
+				to_observe: "ae2:sky_stone_block"
+			}]
+		}
+		{
+			title: "Need help finding those Sky Rocks?"
+			x: 2.0d
+			y: -0.5d
+			shape: "hexagon"
+			subtitle: "How this thing works? I have no f***ing idea..."
+			description: ["By making yourself one of these, It'll be easier to find the big Space Rocks"]
+			hide: true
+			optional: true
+			id: "5C1B95C534D92243"
+			tasks: [{
+				id: "199AADDF5D9C207C"
+				type: "item"
+				item: "ae2:sky_compass"
+			}]
+		}
+		{
+			title: "More exploration incomming"
+			x: 4.0d
+			y: -1.5d
+			subtitle: "Sorry, the only way arround this is to copy them from another player who has them already."
+			description: [
+				"Inside these Meteorites you'll find a chest. Inside the chest theres one or multiple of these Presses."
+				"To start with Applied Energistics, you'll need all four of them."
+			]
+			dependencies: ["73A14FDD0EF223E1"]
+			id: "144C5E861940F840"
+			tasks: [
+				{
+					id: "2E8F6F5E8EC1B098"
+					type: "item"
+					item: "ae2:logic_processor_press"
+				}
+				{
+					id: "65F8FC6AD74803EC"
+					type: "item"
+					item: "ae2:engineering_processor_press"
+				}
+				{
+					id: "44B64E7C23772EDC"
+					type: "item"
+					item: "ae2:calculation_processor_press"
+				}
+				{
+					id: "1859FFFF54D51D78"
+					type: "item"
+					item: "ae2:silicon_press"
+				}
+			]
+		}
+	]
 }
