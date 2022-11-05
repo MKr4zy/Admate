@@ -4,6 +4,7 @@
 	order_index: 2
 	filename: "twilight_forest"
 	title: "Twilight Forest"
+	icon: "twilightforest:twilight_portal_miniature_structure"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
