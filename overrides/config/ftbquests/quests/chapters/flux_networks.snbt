@@ -4,10 +4,7 @@
 	order_index: 0
 	filename: "flux_networks"
 	title: "Flux Networks"
-<<<<<<< Updated upstream
-=======
 	icon: "fluxnetworks:flux_dust"
->>>>>>> Stashed changes
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]

@@ -6,9 +6,6 @@
 	title: "ProjectE"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-<<<<<<< Updated upstream
-	quests: [ ]
-=======
 	quests: [
 		{
 			title: "Handheld Transmutation"
@@ -134,5 +131,4 @@
 			}]
 		}
 	]
->>>>>>> Stashed changes
 }
