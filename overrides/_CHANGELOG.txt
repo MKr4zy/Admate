@@ -1,11 +1,16 @@
 # CHANGELOG
 
-## Version 1.2.1
+## Version: 1.2 dev.1
+### Mods
+- Added: AdvancedPeripherals-0.7.19r.jar
 
-### Configs
-- Changed:config\debugify.json "MC-147605": from true to false
-- Changed: config\ftbquests added questline
-
+### Configs:
+- Changed: config\ProjectE\client.toml shiftEmcToolTips = false -> true
+- Changed: config\ProjectE\server.toml covalenceLoss = 1.0 -> 0.5
+- Changed: config\ProjectE\server.toml pickaxeAoeVeinMining = false -> true
+- Changed: config\project-expansion.toml emcDisplay = true -> false
+- Changed: config\debugify.json "MC-147605": from true to false
+- Changed: config\bcc-common.toml - Configured our Modpack values
 
 ## Version: 1.2
 
