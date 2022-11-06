@@ -2,7 +2,7 @@
 tickDelay = 20
 formatEMC = true
 fullNumberNames = true
-emcDisplay = true
+emcDisplay = false
 notifyCommandChanges = true
 notifyKnowledgeBookGains = true
 limitEmcLinkVendor = true
