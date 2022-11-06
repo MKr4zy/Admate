@@ -1,0 +1,10 @@
+{
+	id: "1E85A72EFF90EB21"
+	group: "4BD5D24B2D332510"
+	order_index: 0
+	filename: "pams_harvestcraft"
+	title: "Pam's HarvestCraft"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

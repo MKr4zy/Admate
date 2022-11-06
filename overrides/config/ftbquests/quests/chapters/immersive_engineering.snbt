@@ -1,0 +1,10 @@
+{
+	id: "33B97B80ECF7D789"
+	group: "3560D6FE8C89AEF0"
+	order_index: 1
+	filename: "immersive_engineering"
+	title: "Immersive Engineering"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

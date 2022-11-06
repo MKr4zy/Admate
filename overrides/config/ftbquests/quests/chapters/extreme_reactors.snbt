@@ -1,0 +1,10 @@
+{
+	id: "554C774B7CB9151A"
+	group: "05B3E36748375D3B"
+	order_index: 2
+	filename: "extreme_reactors"
+	title: "Extreme Reactors"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}
