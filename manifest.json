@@ -12,7 +12,7 @@
   "manifestVersion": 1,
   "name": "Admate_v1.2.0",
   "version": "1.2.0",
-  "author": "Corgi_Taco",
+  "author": "Tuhljin",
   "files": [
     {
       "projectID": 223703,
@@ -2127,6 +2127,11 @@
     {
       "projectID": 539097,
       "fileID": 3879366,
+      "required": true
+    },
+    {
+      "projectID": 431725,
+      "fileID": 3971494,
       "required": true
     },
     {
