@@ -143,6 +143,15 @@
 					}
 				}
 			}]
+<<<<<<< Updated upstream
+=======
+			rewards: [{
+				id: "6B62F829417B6F51"
+				type: "item"
+				item: "pamhc2foodextended:grandmasmacaronicasseroleitem"
+				count: 2
+			}]
+>>>>>>> Stashed changes
 		}
 	]
 }

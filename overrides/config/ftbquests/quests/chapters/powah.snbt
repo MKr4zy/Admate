@@ -4,6 +4,10 @@
 	order_index: 1
 	filename: "powah"
 	title: "Powah"
+<<<<<<< Updated upstream
+=======
+	icon: "powah:reactor_spirited"
+>>>>>>> Stashed changes
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]

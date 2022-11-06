@@ -4,6 +4,10 @@
 	order_index: 2
 	filename: "gobber"
 	title: "Gobber"
+<<<<<<< Updated upstream
+=======
+	icon: "gobber2:gobber2_glob_nether"
+>>>>>>> Stashed changes
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]

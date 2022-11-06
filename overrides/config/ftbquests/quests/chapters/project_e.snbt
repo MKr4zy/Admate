@@ -6,5 +6,133 @@
 	title: "ProjectE"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+<<<<<<< Updated upstream
 	quests: [ ]
+=======
+	quests: [
+		{
+			title: "Handheld Transmutation"
+			icon: {
+				id: "projecte:philosophers_stone"
+				Count: 1b
+				tag: { }
+				ForgeCaps: {
+					Parent: { }
+				}
+			}
+			x: -1.0d
+			y: 0.5d
+			description: [
+				"Yes we changed the recipe, otherwise it would be too easy."
+				"Now you need to kill the Wither to start your transmutation journey."
+				""
+				"Get to the Nether, Farm some skulls and grab some goodies after killing the wither"
+			]
+			id: "6E95774A742BC2FE"
+			tasks: [{
+				id: "16482A53322B14ED"
+				type: "kill"
+				icon: "ars_nouveau:glyph_wither"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [{
+				id: "60B1C93301FC45A1"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "nethers_exoticism:wither_cure"
+					}
+				}
+			}]
+		}
+		{
+			title: "Transmutation Table"
+			icon: "projecte:transmutation_table"
+			x: 1.0d
+			y: 0.5d
+			description: [
+				"Craft the table to store EMC and learn it some items. Achieved item knowlegde can be shared with a special book."
+				"Check JEI for that recipe."
+				""
+				"Altough it eases progression we recommend against this mechanic because it removes the depth of exploring and this pack."
+				"If you want to use it anyway... go for it and take some salt."
+				""
+			]
+			dependencies: ["6E95774A742BC2FE"]
+			id: "477E5B3FB2F4B6EE"
+			tasks: [{
+				id: "1CA8716AB9BB503B"
+				type: "item"
+				item: {
+					id: "projecte:philosophers_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3DC0538B88E736FE"
+					type: "item"
+					item: "mysticalworld:vinegar"
+				}
+				{
+					id: "5BDF3B647EAA8FA9"
+					type: "item"
+					item: "mekanism:salt"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Collecting EMC I"
+			x: 3.0d
+			y: 0.5d
+			description: ["Yeah, we changed that recipe aswell."]
+			dependencies: ["477E5B3FB2F4B6EE"]
+			id: "4537F90F16A61437"
+			tasks: [{
+				id: "604CECC2A66F6D29"
+				type: "item"
+				item: "projecte:collector_mk1"
+			}]
+			rewards: [
+				{
+					id: "7DA4878D4DD967C6"
+					type: "item"
+					item: "quark:yellow_blossom_sapling"
+				}
+				{
+					id: "19819F6DA7A193AE"
+					type: "item"
+					item: "pamhc2foodcore:caramelyogurtitem"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Collecting EMC II"
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["4537F90F16A61437"]
+			id: "7CEBF1CFE0FBCC73"
+			tasks: [{
+				id: "31D6832664D92112"
+				type: "item"
+				item: "projecte:collector_mk2"
+			}]
+			rewards: [{
+				id: "32A1FF7C3F3A0676"
+				type: "item"
+				item: "pamhc2foodextended:lemonaideitem"
+				count: 3
+			}]
+		}
+	]
+>>>>>>> Stashed changes
 }
