@@ -9,8 +9,8 @@
 	quests: [
 		{
 			icon: "prefab:item_start_house"
-			x: -1.5d
-			y: -7.0d
+			x: -2.5d
+			y: -4.5d
 			description: ["At the beginning of your journey you were given an Blue Prefab Blueprint which contains keys to a free starting structure"]
 			dependencies: ["52C45392B28A7F43"]
 			hide: true
@@ -38,8 +38,8 @@
 		{
 			title: "Eat all the things"
 			icon: "solcarrot:food_book"
-			x: 1.5d
-			y: -6.5d
+			x: 3.0d
+			y: -3.0d
 			description: [
 				"This modpack gives you bonus hearts from eating new stuff"
 				"Check out Pam's Harvestcraft for alot of variations"
@@ -94,8 +94,8 @@
 		{
 			title: "Expanding your residence"
 			icon: "prefab:item_starter_farm"
-			x: -1.5d
-			y: -9.0d
+			x: -5.0d
+			y: -4.5d
 			description: [
 				"Farming is hard work"
 				"Grab some seeds and make yourself an coffee :)"
@@ -124,8 +124,8 @@
 		}
 		{
 			title: "Mining made easy"
-			x: -3.0d
-			y: -5.0d
+			x: 3.0d
+			y: -5.5d
 			description: [
 				"FTB Ultimine is in the house!"
 				"Hold your zircumflex key to start mining multiple blocks at the same time... or change your key in the settings."

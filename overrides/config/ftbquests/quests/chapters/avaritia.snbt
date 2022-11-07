@@ -7,5 +7,15 @@
 	icon: "avaritia:infinity_block"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		title: "The final piece"
+		x: -0.5d
+		y: 0.0d
+		id: "6A2CAF6E0407D5DD"
+		tasks: [{
+			id: "13951E50E67A52FC"
+			type: "item"
+			item: "avaritia:infinity_block"
+		}]
+	}]
 }

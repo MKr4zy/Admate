@@ -4,6 +4,13 @@
 	order_index: 3
 	filename: "greek_fantasy"
 	title: "Greek Fantasy"
+	icon: {
+		id: "greekfantasy:thunderbolt"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]

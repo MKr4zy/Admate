@@ -31,7 +31,7 @@
 			}]
 		}
 		{
-			title: "sudo SimpleStorageNetwork"
+			title: "sudo -i"
 			x: 3.0d
 			y: 0.0d
 			dependencies: ["1ADDD979AD4C4C1E"]

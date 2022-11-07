@@ -7,5 +7,144 @@
 	icon: "refinedstorage:creative_controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "It starts with a Controller"
+			x: -0.5d
+			y: 0.0d
+			description: [
+				"This is the heart of your system."
+				"It connects all pieces together and make 'em functional."
+				""
+				"If all sites are occupied, try adding more cables. Because more is actually more."
+				""
+				"https://refinedmods.com/refined-storage/wiki"
+			]
+			id: "71B2F553F51B1F26"
+			tasks: [{
+				id: "73ED1DED79C25F17"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+			rewards: [{
+				id: "084DE20F72440515"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				count: 12
+			}]
+		}
+		{
+			title: "Not a DJ but a DD"
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["71B2F553F51B1F26"]
+			hide: true
+			id: "5F3607D2DB7CACC5"
+			tasks: [{
+				id: "109D33A381E3D43A"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+		}
+		{
+			title: "Storing Items"
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["5F3607D2DB7CACC5"]
+			id: "4DEFB9C803B10FFF"
+			tasks: [{
+				id: "1EAC1D502073A93D"
+				type: "item"
+				item: {
+					id: "refinedstorage:1k_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							527009699
+							1870744376
+							-1684897726
+							1556407332
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Storing Fluids"
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["5F3607D2DB7CACC5"]
+			id: "6BE0E666BC6788CB"
+			tasks: [{
+				id: "0A18B07C162E814A"
+				type: "item"
+				item: "refinedstorage:64k_fluid_storage_disk"
+			}]
+		}
+		{
+			title: "Accessing Items"
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["71B2F553F51B1F26"]
+			hide: true
+			id: "454FEA47012AD436"
+			tasks: [{
+				id: "4B2905E3E83DE24C"
+				type: "item"
+				item: "refinedstorage:grid"
+			}]
+		}
+		{
+			title: "Let's add re(fine)d cables"
+			x: -0.5d
+			y: 2.0d
+			dependencies: ["71B2F553F51B1F26"]
+			hide: true
+			id: "27CBDE16FF3DCC10"
+			tasks: [{
+				id: "14F5206C86FA4880"
+				type: "item"
+				item: "refinedstorage:cable"
+			}]
+		}
+		{
+			title: "Workbench and Grid in one item"
+			x: -0.5d
+			y: -4.0d
+			dependencies: ["454FEA47012AD436"]
+			id: "4E30616497DE35B3"
+			tasks: [{
+				id: "0FEFD27A5269F560"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			dependencies: [
+				"4E30616497DE35B3"
+				"6B110EF6275A7C51"
+			]
+			id: "55751A212493A90B"
+			tasks: [{
+				id: "70F22BC4B41826F0"
+				type: "item"
+				item: "refinedstorageaddons:wireless_crafting_grid"
+			}]
+		}
+		{
+			title: "Wireless RS"
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["71B2F553F51B1F26"]
+			hide: true
+			id: "6B110EF6275A7C51"
+			tasks: [{
+				id: "0B09B409CBDA32DA"
+				type: "item"
+				item: "refinedstorage:wireless_transmitter"
+			}]
+		}
+	]
 }
