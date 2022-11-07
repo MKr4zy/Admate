@@ -1,6 +1,6 @@
 {
 	chapter_groups: [
-		{ id: "4BD5D24B2D332510", title: "Food Stuff" }
+		{ id: "4BD5D24B2D332510", title: "Cooking Tutorials" }
 		{ id: "77AA218B1AF1588F", title: "Storage and Automation" }
 		{ id: "05B3E36748375D3B", title: "Energy" }
 		{ id: "3560D6FE8C89AEF0", title: "Machines" }

@@ -4,7 +4,178 @@
 	order_index: 0
 	filename: "pams_harvestcraft"
 	title: "Pam's HarvestCraft"
+	icon: "pamhc2crops:oatsitem"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: -0.5d
+			description: [
+				"With spice of life in this pack, eating different foods pays off because of bonus hearts."
+				""
+				"Pam's provides a ton of seeds, plants, fruits and cooking helpers for you."
+			]
+			id: "5CB2BD3FF502341E"
+			tasks: [{
+				id: "7B71676363AFCFAA"
+				type: "checkmark"
+				title: "Mastering cooking"
+			}]
+		}
+		{
+			title: "Baking around"
+			x: -2.5d
+			y: -2.5d
+			description: [
+				"Baking makes a mess, use this little helper to limit the chaos."
+				""
+				"* I hate baking! *"
+			]
+			dependencies: ["430D8362A17166A6"]
+			hide: true
+			id: "407655AACFAC549A"
+			tasks: [{
+				id: "16B6FBD201E64C1D"
+				type: "item"
+				item: "pamhc2foodcore:bakewareitem"
+			}]
+			rewards: [{
+				id: "1C3D6A104E577256"
+				type: "item"
+				item: "pamhc2crops:grapeitem"
+				count: 8
+			}]
+		}
+		{
+			title: "Tooling around"
+			x: 0.0d
+			y: -2.5d
+			shape: "circle"
+			description: ["You probably need this."]
+			dependencies: ["5CB2BD3FF502341E"]
+			id: "430D8362A17166A6"
+			tasks: [{
+				id: "1BE21F38D1E75D5E"
+				type: "item"
+				item: "cookingforblockheads:tool_rack"
+			}]
+			rewards: [{
+				id: "6BBA75B2A7190CEE"
+				type: "item"
+				item: "another_furniture:white_tall_stool"
+				count: 2
+			}]
+		}
+		{
+			title: "Juicing it up"
+			x: -2.5d
+			y: -3.5d
+			dependencies: ["430D8362A17166A6"]
+			hide: true
+			id: "5B3B5777578DE6C8"
+			tasks: [{
+				id: "128B4D20D707D59F"
+				type: "item"
+				item: "pamhc2foodcore:juiceritem"
+			}]
+			rewards: [{
+				id: "38D70CE388EBECC8"
+				type: "item"
+				item: "minecraft:carrot"
+				count: 4
+			}]
+		}
+		{
+			title: "Grinding in the kitchen"
+			x: -2.0d
+			y: -4.5d
+			dependencies: ["430D8362A17166A6"]
+			hide: true
+			id: "3861DCD9D9988BE2"
+			tasks: [{
+				id: "51DEA0D39C5F15EF"
+				type: "item"
+				item: "pamhc2foodcore:grinderitem"
+			}]
+		}
+		{
+			title: "Mixin' it up"
+			x: -1.0d
+			y: -5.0d
+			dependencies: ["430D8362A17166A6"]
+			hide: true
+			id: "1C409B458D6E2A71"
+			tasks: [{
+				id: "7DDED44A731F6551"
+				type: "item"
+				item: "pamhc2foodcore:mixingbowlitem"
+			}]
+		}
+		{
+			title: "This is not a botany pot"
+			x: 0.0d
+			y: -5.5d
+			dependencies: ["430D8362A17166A6"]
+			hide: true
+			id: "1193E7382D64EF29"
+			tasks: [{
+				id: "792887A3054DD9BC"
+				type: "item"
+				item: "pamhc2foodcore:potitem"
+			}]
+		}
+		{
+			title: "Keep on rolling"
+			x: 1.0d
+			y: -5.0d
+			dependencies: ["430D8362A17166A6"]
+			hide: true
+			id: "282230453890C58B"
+			tasks: [{
+				id: "5461FE72BC95FA5F"
+				type: "item"
+				item: "pamhc2foodcore:rolleritem"
+			}]
+		}
+		{
+			title: "Where's the sauce?"
+			x: 2.0d
+			y: -4.5d
+			dependencies: ["430D8362A17166A6"]
+			hide: true
+			id: "337C95BE8F9B8323"
+			tasks: [{
+				id: "4CD4FAE37253FDC6"
+				type: "item"
+				item: "pamhc2foodcore:saucepanitem"
+			}]
+		}
+		{
+			title: "Not the rockband tough"
+			x: 2.5d
+			y: -3.5d
+			dependencies: ["430D8362A17166A6"]
+			hide: true
+			id: "3CA8D887C072B7B1"
+			tasks: [{
+				id: "2637ABCAD9A529BB"
+				type: "item"
+				item: "pamhc2foodcore:skilletitem"
+			}]
+		}
+		{
+			title: "Cutting edges"
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["430D8362A17166A6"]
+			hide: true
+			id: "3875994611BA640E"
+			tasks: [{
+				id: "07344D95EE5BB25F"
+				type: "item"
+				item: "pamhc2foodcore:cuttingboarditem"
+			}]
+		}
+	]
 }

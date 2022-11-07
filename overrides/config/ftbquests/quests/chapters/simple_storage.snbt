@@ -7,5 +7,164 @@
 	icon: "storagenetwork:request"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 1.0d
+			y: 0.0d
+			description: [
+				"Want to have an easily maintainable storage system which doesn't requires you to dig chests?"
+				"Well this one's for you..."
+				""
+				"SSN doesn't require power to operate."
+				"We recommend you read their book, the quests will just outline and honor your crafting."
+			]
+			id: "1ADDD979AD4C4C1E"
+			tasks: [{
+				id: "63B91929A1C26F31"
+				type: "checkmark"
+				title: "A simple one"
+			}]
+			rewards: [{
+				id: "20438E54377B440F"
+				type: "item"
+				item: "farmersrespite:coffee"
+			}]
+		}
+		{
+			title: "sudo -i"
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["1ADDD979AD4C4C1E"]
+			hide: true
+			id: "6DC2B2B4D1DC97A0"
+			tasks: [{
+				id: "187FD4D1DC86D851"
+				type: "item"
+				item: "storagenetwork:master"
+			}]
+			rewards: [
+				{
+					id: "1984F563D681314E"
+					type: "item"
+					item: {
+						id: "sophisticatedstorage:iron_chest"
+						Count: 1b
+						tag: {
+							mainColor: 1908001
+							accentColor: 1908001
+						}
+					}
+				}
+				{
+					id: "075664C7A3E84C17"
+					type: "item"
+					item: "pamhc2foodextended:plumjuiceitem"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "ln /root /chest"
+			x: 5.0d
+			y: 0.0d
+			description: [
+				"Make some link cables to connect to your chests."
+				"There're also cables with filtering capabilities."
+				""
+				"PS: You can also attach a drawer controller or other cool stuff ;)"
+			]
+			dependencies: ["6DC2B2B4D1DC97A0"]
+			hide: true
+			id: "4A53246D03927B64"
+			tasks: [{
+				id: "195F4E373DE7C9F8"
+				type: "item"
+				item: "storagenetwork:storage_kabel"
+			}]
+			rewards: [{
+				id: "673204371EB8524A"
+				type: "item"
+				item: "storagenetwork:storage_kabel"
+				count: 4
+			}]
+		}
+		{
+			title: "ls /root -ah"
+			x: 7.0d
+			y: -1.0d
+			description: [
+				"Want to see your items and retrieve them?"
+				"Use a Storage Inventory"
+			]
+			dependencies: ["4A53246D03927B64"]
+			hide: true
+			id: "5239DA6FBB0F2D85"
+			tasks: [{
+				id: "6689AEDB08BB1CD8"
+				type: "item"
+				item: "storagenetwork:inventory"
+			}]
+			rewards: [{
+				id: "6A7FA082E8AE1B28"
+				type: "item"
+				item: "pamhc2foodcore:hotchocolateitem"
+				count: 4
+			}]
+		}
+		{
+			title: "mv /root/item /world/item"
+			x: 7.0d
+			y: 1.0d
+			description: ["Use this if you want to get items in other chests, machines or interfaces."]
+			dependencies: ["4A53246D03927B64"]
+			hide: true
+			id: "089B58253ED7AE68"
+			tasks: [{
+				id: "7DB206E999DE5807"
+				type: "item"
+				item: "storagenetwork:request"
+			}]
+			rewards: [
+				{
+					id: "586D787077571976"
+					type: "item"
+					item: "storagenetwork:filter_kabel"
+				}
+				{
+					id: "61FDD687885D60B6"
+					type: "item"
+					item: "pamhc2crops:roastedmushroomitem"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Read the docs"
+			x: 1.0d
+			y: -2.0d
+			description: ["Trade some XP for their book, repeat if you misplaced your book"]
+			dependencies: ["1ADDD979AD4C4C1E"]
+			hide: true
+			optional: true
+			can_repeat: true
+			id: "38FCD9925DA1268F"
+			tasks: [{
+				id: "5A764FC35F6DF135"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "61036FA66737ABD6"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "storagenetwork:network_book"
+					}
+				}
+			}]
+		}
+	]
 }

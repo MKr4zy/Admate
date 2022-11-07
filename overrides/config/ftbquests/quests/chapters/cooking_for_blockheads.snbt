@@ -4,7 +4,215 @@
 	order_index: 1
 	filename: "cooking_for_blockheads"
 	title: "Cooking for Blockheads"
+	icon: "cookingforblockheads:oven"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"You really start to living on your own and make some good food."
+				"And because Papa loves you, here's a basic furnace."
+				""
+				"Check Pam's Harvestcraft for utilites like pans and rolls aswell as for recipes."
+				""
+				"CfB makes your food journey less painful so take your time and invest in a good kitchen."
+				"It acts as Multiblock when connected to nearby kitchen blocks, the cooking table can access all the food easily."
+			]
+			id: "79A4F342AB8A1FAA"
+			tasks: [{
+				id: "15A56198B991A2E3"
+				type: "checkmark"
+				title: "To the kitchen you go!"
+			}]
+			rewards: [{
+				id: "39D2CE82AFB5B67B"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+		{
+			title: "Grandma's recipes"
+			x: -2.0d
+			y: 0.0d
+			description: [
+				"Contining the legacy."
+				"Have a bookshelf to store your recipes"
+			]
+			dependencies: ["79A4F342AB8A1FAA"]
+			id: "78B81C8CC47F5060"
+			tasks: [{
+				id: "0DC17CE7A01F9DA0"
+				type: "item"
+				item: "cookingforblockheads:recipe_book"
+			}]
+			rewards: [
+				{
+					id: "4FE91871FE1CA177"
+					type: "item"
+					item: "buildersaddition:bookshelf_oak"
+				}
+				{
+					id: "08F2B1CE1BB2C6FB"
+					type: "xp"
+					xp: 5
+				}
+			]
+		}
+		{
+			title: "Grandma's recipes unplugged"
+			x: -4.0d
+			y: 0.0d
+			description: [
+				"Fill your cooking sounds with some lovely music."
+				"Here's a disk."
+			]
+			dependencies: ["78B81C8CC47F5060"]
+			id: "3D9F01F5EA6F141B"
+			tasks: [{
+				id: "15B27C11EE690C26"
+				type: "item"
+				item: "cookingforblockheads:no_filter_edition"
+			}]
+			rewards: [
+				{
+					id: "24AE096F49548CF1"
+					type: "item"
+					item: "twilightforest:music_disc_home"
+				}
+				{
+					id: "293F844C6EC04087"
+					type: "xp"
+					xp: 5
+				}
+			]
+		}
+		{
+			title: "Grandma's recipes explicit"
+			x: -6.0d
+			y: 0.0d
+			description: ["Feels a bit like automating it."]
+			dependencies: ["3D9F01F5EA6F141B"]
+			id: "120F24C5D528CE8F"
+			tasks: [{
+				id: "208C8D56C36BF810"
+				type: "item"
+				item: "cookingforblockheads:crafting_book"
+			}]
+			rewards: [
+				{
+					id: "4D9D0A062D8BE050"
+					type: "item"
+					item: "cookingforblockheads:fruit_basket"
+				}
+				{
+					id: "596F2DF2C0EC5973"
+					type: "xp"
+					xp: 5
+				}
+			]
+		}
+		{
+			title: "Kitchen counter"
+			x: 0.0d
+			y: -2.0d
+			description: [
+				"You probably need atleast 3 counters to place some miniblocks."
+				""
+				"E.g. this toaster, a milkjar or a fruit basket."
+			]
+			dependencies: ["79A4F342AB8A1FAA"]
+			id: "68BD17A1D8E39117"
+			tasks: [{
+				id: "087C56A0E901A5BF"
+				type: "item"
+				item: "cookingforblockheads:counter"
+				count: 3L
+			}]
+			rewards: [{
+				id: "6C5589B460953B3A"
+				type: "item"
+				item: "cookingforblockheads:toaster"
+			}]
+		}
+		{
+			title: "Integrated Cooking"
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["79A4F342AB8A1FAA"]
+			id: "5788373B4AF1150A"
+			tasks: [{
+				id: "361454208954C50B"
+				type: "item"
+				item: "cookingforblockheads:oven"
+			}]
+			rewards: [{
+				id: "0A5036FCE917FED7"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16
+			}]
+		}
+		{
+			title: "Freezing food"
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["79A4F342AB8A1FAA"]
+			id: "258A10F0A59CFA26"
+			tasks: [{
+				id: "1870E727AE56A1B1"
+				type: "item"
+				item: "cookingforblockheads:fridge"
+			}]
+			rewards: [{
+				id: "66AD05A86480F52C"
+				type: "item"
+				item: "minecraft:snowball"
+				count: 16
+			}]
+		}
+		{
+			title: "Kitchen corner"
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["68BD17A1D8E39117"]
+			id: "0CD104464FB97C24"
+			tasks: [{
+				id: "456CC1436BFF2C61"
+				type: "item"
+				item: "cookingforblockheads:corner"
+			}]
+			rewards: [{
+				id: "200938030AA78980"
+				type: "item"
+				item: "pamhc2foodextended:fivespiceitem"
+				count: 2
+			}]
+		}
+		{
+			title: "Manual washing"
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["79A4F342AB8A1FAA"]
+			id: "55CC1F2F30132383"
+			tasks: [{
+				id: "7DED2C6B575F8A8B"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+		}
+		{
+			title: "Manual Cooking"
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["79A4F342AB8A1FAA"]
+			id: "45A79D963DBE26A1"
+			tasks: [{
+				id: "1B6C0A912B187C74"
+				type: "item"
+				item: "cookingforblockheads:cooking_table"
+			}]
+		}
+	]
 }

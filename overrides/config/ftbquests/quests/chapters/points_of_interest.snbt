@@ -42,7 +42,7 @@
 		}
 		{
 			x: 3.0d
-			y: -1.5d
+			y: -3.5d
 			description: ["Kill a Goblin King - this is your fort now"]
 			id: "087DBB455E2AA10C"
 			tasks: [{
