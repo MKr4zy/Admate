@@ -75,5 +75,156 @@
 				}
 			]
 		}
+		{
+			title: "The three Basic Processors"
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["144C5E861940F840"]
+			id: "67C2D6ADF24DED11"
+			tasks: [
+				{
+					id: "26705D3A3DB2CB3F"
+					type: "item"
+					item: "ae2:logic_processor"
+				}
+				{
+					id: "2F0F414A8246406F"
+					type: "item"
+					item: "ae2:calculation_processor"
+				}
+				{
+					id: "04A6D95765B514DC"
+					type: "item"
+					item: "ae2:engineering_processor"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			subtitle: "The brains of the Operation"
+			description: [
+				"Each of the sides can provide 32 Channels."
+				"Each connected Device will consume one channel"
+			]
+			dependencies: ["67C2D6ADF24DED11"]
+			id: "7DD3C8DABD09EF3F"
+			tasks: [{
+				id: "7DC84D4A261786A9"
+				type: "item"
+				item: "ae2:controller"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.5d
+			dependencies: ["7DD3C8DABD09EF3F"]
+			id: "46CCD56EB9861A87"
+			tasks: [{
+				id: "19D2CECD78012535"
+				type: "item"
+				item: "ae2:drive"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.5d
+			dependencies: ["46CCD56EB9861A87"]
+			id: "3523542CA6EC1E3F"
+			tasks: [{
+				id: "1DF3F9A1296BD034"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "28862E9CE87EB8CC"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: -1.5d
+			dependencies: ["3523542CA6EC1E3F"]
+			id: "73E0059879D38A7E"
+			tasks: [{
+				id: "5EC1B121A453DED2"
+				type: "item"
+				item: "ae2:crafting_terminal"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			description: [
+				"This Cable can transfer 8 Channels."
+				"If you make yourself the Smart Variant, you can see directly, how many channels are used."
+			]
+			dependencies: ["7DD3C8DABD09EF3F"]
+			id: "07CCFD65218544C3"
+			tasks: [{
+				id: "338C367944FE47D7"
+				type: "item"
+				item: "ae2:fluix_glass_cable"
+			}]
+			rewards: [{
+				id: "1A7180911C2EDE4A"
+				type: "item"
+				item: "ae2:fluix_smart_cable"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			description: ["And this one 32. But not all blocks can connect directly to this cable."]
+			dependencies: ["07CCFD65218544C3"]
+			id: "69BF2EF629864B4B"
+			tasks: [{
+				id: "2AAEEE05E6C0A67E"
+				type: "item"
+				item: "ae2:fluix_smart_dense_cable"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			dependencies: [
+				"07CCFD65218544C3"
+				"69C244C1E0C07C55"
+			]
+			id: "01346C8822ACD753"
+			tasks: [{
+				id: "3C8B7438D8657B77"
+				type: "item"
+				item: {
+					id: "ae2:color_applicator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -0.5d
+			description: [
+				"Via this chest you can access contents of drives directly."
+				"Can also be used to store collors in the collor applicator f.e."
+			]
+			dependencies: ["7DD3C8DABD09EF3F"]
+			id: "69C244C1E0C07C55"
+			tasks: [{
+				id: "75A97D560A4CACDF"
+				type: "item"
+				item: "ae2:chest"
+			}]
+		}
 	]
 }
