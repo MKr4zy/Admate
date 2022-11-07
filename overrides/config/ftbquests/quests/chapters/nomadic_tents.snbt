@@ -1,0 +1,452 @@
+{
+	id: "6863598FF7388740"
+	group: "34A84AFE30AFE050"
+	order_index: 1
+	filename: "nomadic_tents"
+	title: "Nomadic Tents"
+	icon: {
+		id: "nomadictents:mega_shamiyana"
+		Count: 1b
+		tag: {
+			layers: 0b
+			id: 4
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Exploring was never this fun"
+			id: "1F71550E0DDCEF70"
+			tasks: [{
+				id: "3604364336E64DFB"
+				type: "checkmark"
+				title: "You want to explore?"
+			}]
+			rewards: [{
+				id: "66DE92C59C4E169C"
+				type: "custom"
+				title: "Then Take your House with you!"
+				icon: {
+					id: "nomadictents:mega_shamiyana"
+					Count: 1b
+					tag: {
+						layers: 0b
+						id: 4
+					}
+				}
+			}]
+		}
+		{
+			title: "Start with one of these"
+			x: 2.0d
+			y: -0.5d
+			subtitle: "It's Bigger on the Inside"
+			description: [
+				"They're mostly the same, small differences in looks both in and outside"
+				"Place them down by holding right click"
+			]
+			dependencies: ["1F71550E0DDCEF70"]
+			id: "2C2721F683799D83"
+			tasks: [{
+				id: "61641A99DC0EDC9F"
+				type: "item"
+				title: "Tents"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "nomadictents:tiny_shamiyana"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:tiny_indlu"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:tiny_bedouin"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:tiny_tepee"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:tiny_yurt"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Building Tool"
+			x: 3.5d
+			y: -0.5d
+			subtitle: "Hammer away!"
+			description: [
+				"Right click with this hammer on the Tent-Blocks, until they are fully build."
+				"It could take 1 or 2 Minutes until your completely finished, so maybe do this before night sets"
+			]
+			dependencies: ["2C2721F683799D83"]
+			id: "3979FD9EBD5FB040"
+			tasks: [{
+				id: "4527F2414A55BFE8"
+				type: "item"
+				item: {
+					id: "nomadictents:mallet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Incase your lazy"
+			x: 5.0d
+			y: 0.0d
+			subtitle: "Tent go Brrrrrr"
+			description: [
+				"This Hammer is golden.. Means its better?"
+				"(fully build your tent in one click)"
+			]
+			dependencies: ["3979FD9EBD5FB040"]
+			id: "4C576D617196349C"
+			tasks: [{
+				id: "65CD61DD68B8FC61"
+				type: "item"
+				item: {
+					id: "nomadictents:golden_mallet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "It gets bigger"
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["2C2721F683799D83"]
+			hide: true
+			id: "112D4D63A0C01401"
+			tasks: [{
+				id: "215F6CB243EB73BE"
+				type: "item"
+				title: "Small Tents"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "nomadictents:small_shamiyana"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:small_indlu"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:small_bedouin"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:small_tepee"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:small_yurt"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "And Bigger..."
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["112D4D63A0C01401"]
+			id: "5681A767A700C4D1"
+			tasks: [{
+				id: "30FBC675814A82D7"
+				type: "item"
+				title: "Medium Tents"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "nomadictents:medium_shamiyana"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:medium_indlu"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:medium_bedouin"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:medium_tepee"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:medium_yurt"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "And Bigger..."
+			x: 2.0d
+			y: 4.0d
+			dependencies: ["5681A767A700C4D1"]
+			id: "49F1655C2A0254F2"
+			tasks: [{
+				id: "7772C5825DDA3D25"
+				type: "item"
+				title: "Large Tents"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "nomadictents:large_shamiyana"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:large_indlu"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:large_bedouin"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:large_tepee"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:large_yurt"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "OMG Tent-bro, it's huge!"
+			x: 2.0d
+			y: 5.5d
+			dependencies: ["49F1655C2A0254F2"]
+			id: "48776560C36557CC"
+			tasks: [{
+				id: "4DB7AE9440A70266"
+				type: "item"
+				title: "Giant Tents"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "nomadictents:giant_shamiyana"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:giant_indlu"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:giant_bedouin"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:giant_tepee"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:giant_yurt"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "This Tent does not get more mega than this."
+			x: 2.0d
+			y: 7.0d
+			dependencies: ["48776560C36557CC"]
+			id: "125113AA34FC2CA9"
+			tasks: [{
+				id: "20D6ECBA553218C5"
+				type: "item"
+				title: "MEGA Tent"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "nomadictents:mega_shamiyana"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:mega_indlu"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:mega_bedouin"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:mega_tepee"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "nomadictents:mega_yurt"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			subtitle: "More dirt :D"
+			description: ["Incase you need a cellar under your tent?!"]
+			hide_dependency_lines: true
+			dependencies: ["112D4D63A0C01401"]
+			id: "2FD1DBC26D31DE23"
+			tasks: [{
+				id: "3B8F4C3752FAF4DF"
+				type: "item"
+				item: "nomadictents:stone_tent_shovel"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"2FD1DBC26D31DE23"
+				"5681A767A700C4D1"
+			]
+			id: "0543C1B546202B88"
+			tasks: [{
+				id: "0FA2FF3B7F72F061"
+				type: "item"
+				item: "nomadictents:iron_tent_shovel"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"49F1655C2A0254F2"
+				"0543C1B546202B88"
+			]
+			id: "7E3BDA6673A45F26"
+			tasks: [{
+				id: "65F618E50C92AF77"
+				type: "item"
+				item: "nomadictents:golden_tent_shovel"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E3BDA6673A45F26"
+				"48776560C36557CC"
+			]
+			id: "4480C0B1D6FBE939"
+			tasks: [{
+				id: "150B006D4A95C663"
+				type: "item"
+				item: "nomadictents:obsidian_tent_shovel"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"4480C0B1D6FBE939"
+				"125113AA34FC2CA9"
+			]
+			id: "22E103EA992E9D23"
+			tasks: [{
+				id: "2BA42A7D95712E22"
+				type: "item"
+				item: "nomadictents:diamond_tent_shovel"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			subtitle: "No need for Movers"
+			description: ["Just use your Tent-Hammer on the door to deconstruct your tent. Now go exploring^^"]
+			dependencies: ["3979FD9EBD5FB040"]
+			id: "5BC5786B2EDE06F1"
+			tasks: [{
+				id: "50C07771D5E9910B"
+				type: "checkmark"
+				title: "You want to move?"
+			}]
+		}
+	]
+}

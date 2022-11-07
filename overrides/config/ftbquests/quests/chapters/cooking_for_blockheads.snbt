@@ -1,0 +1,10 @@
+{
+	id: "082FD68FFCE2AA86"
+	group: "4BD5D24B2D332510"
+	order_index: 1
+	filename: "cooking_for_blockheads"
+	title: "Cooking for Blockheads"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

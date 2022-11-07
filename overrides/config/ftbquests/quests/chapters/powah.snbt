@@ -1,0 +1,11 @@
+{
+	id: "350716AB78B047B9"
+	group: "05B3E36748375D3B"
+	order_index: 1
+	filename: "powah"
+	title: "Powah"
+	icon: "powah:reactor_spirited"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

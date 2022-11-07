@@ -1,0 +1,12 @@
+{
+	chapter_groups: [
+		{ id: "4BD5D24B2D332510", title: "Food Stuff" }
+		{ id: "77AA218B1AF1588F", title: "Storage and Automation" }
+		{ id: "05B3E36748375D3B", title: "Energy" }
+		{ id: "3560D6FE8C89AEF0", title: "Machines" }
+		{ id: "4B57B3C8ECD6EFFF", title: "Magic" }
+		{ id: "22228E60597C902A", title: "Exploring" }
+		{ id: "34A84AFE30AFE050", title: "Building" }
+		{ id: "7FB36A7A2C0B0283", title: "Endgame" }
+	]
+}

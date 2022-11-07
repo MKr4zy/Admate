@@ -1,0 +1,11 @@
+{
+	id: "32BE0726A75F8A01"
+	group: "77AA218B1AF1588F"
+	order_index: 2
+	filename: "refined_storage"
+	title: "Refined Storage"
+	icon: "refinedstorage:creative_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

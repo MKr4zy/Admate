@@ -1,0 +1,138 @@
+{
+	id: "56C164868753B940"
+	group: "77AA218B1AF1588F"
+	order_index: 0
+	filename: "different_storage_systems"
+	title: "Different Storage Systems"
+	icon: "minecraft:chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "What do you want?"
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "It's not that Simple !!!!"
+			description: [
+				"There are multiple available Storage Solutions for you to choose from."
+				""
+				"Read their descriptions to learn what they're limitations are."
+			]
+			id: "23B2BCC9CF946D37"
+			tasks: [{
+				id: "3405BBC6E15B282D"
+				type: "checkmark"
+				title: "What do you need?"
+			}]
+		}
+		{
+			icon: "refinedstorage:crafting_grid"
+			x: 2.5d
+			y: -2.0d
+			shape: "diamond"
+			subtitle: "This is not the most refined a storage system can get..."
+			description: [
+				"This solution is more complex than the Simple Storage Network. But still simpler than Applied Energistics."
+				"With Refined Storage you'll won't need chests like with the Simple one, Autocrafting and Automation are also easily set up."
+				"But it has fewer Integrations in other mods like Applied Energistics. One example for that is Botania."
+			]
+			dependencies: ["23B2BCC9CF946D37"]
+			id: "22E8BDE72BE26D48"
+			tasks: [{
+				id: "48704872E9B7D517"
+				type: "checkmark"
+				title: "Refined Storage"
+			}]
+		}
+		{
+			icon: "storagenetwork:request"
+			x: -2.5d
+			y: -2.0d
+			shape: "diamond"
+			subtitle: "One Block to Rule them all... Sort of.."
+			description: [
+				"This is - as the name suggests - a simple solution of a Storage Network."
+				"Here you still require chests to store all the Items."
+				"But you'll have one central Block to see all Items stored in Connected Inventories (like chests)"
+				"Autocrafting or Automation in Generall is harder to pull of and doesn't work as good compared to the other solutions."
+			]
+			dependencies: ["23B2BCC9CF946D37"]
+			id: "001FFFAD85D335D9"
+			tasks: [{
+				id: "0E8FB0B5BD3E5344"
+				type: "checkmark"
+				title: "Simple Storage"
+			}]
+		}
+		{
+			icon: "ae2:crafting_terminal"
+			x: 2.5d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "More Refined than the Refined System ... atleast in some ways..."
+			description: ["Applied Energistics is the most complex Storage Solution in this Modpack. But you can also do the most things with it. If you're willing to put in the work, the rewards will pay of.. Maybe.."]
+			guide_page: "What is a guide page?"
+			dependencies: ["23B2BCC9CF946D37"]
+			id: "7680205CB68B6982"
+			tasks: [{
+				id: "7BA09FF9D871120C"
+				type: "checkmark"
+				title: "Applied Energistics"
+			}]
+		}
+		{
+			title: "Drawers and Big Chests"
+			icon: "ironchest:iron_chest"
+			x: -2.5d
+			y: 2.0d
+			subtitle: "Yeaa, more Storage!!!!"
+			dependencies: ["23B2BCC9CF946D37"]
+			id: "155999EE94769031"
+			tasks: [{
+				id: "5D4D6076DD10AD71"
+				type: "checkmark"
+				title: "Drawers and big Chests"
+			}]
+		}
+		{
+			title: "Your First \"Specialized\" Storage"
+			x: -6.5d
+			y: 4.0d
+			subtitle: "The more different Items you squeeze into these, the less of each item will fit ;)"
+			description: [
+				"Using these for Items you'll have large quantities of is recommended"
+				"For Example: Cobble, Wood, Ores / Ingots, etc."
+			]
+			dependencies: ["155999EE94769031"]
+			id: "026E979CD24CB383"
+			tasks: [{
+				id: "49247086AAB45E62"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			description: [
+				"The First upgrade to your simple Chest."
+				"It can hold 2 times more Items than your normal chest."
+			]
+			dependencies: ["155999EE94769031"]
+			id: "526C99CFCDFEB90F"
+			tasks: [{
+				id: "3A97C04E1AC8C72E"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+		}
+	]
+}

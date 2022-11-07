@@ -1,0 +1,122 @@
+{
+	id: "394FD36389922360"
+	group: "22228E60597C902A"
+	order_index: 2
+	filename: "twilight_forest"
+	title: "Twilight Forest"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Portal"
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: 7.5d
+			y: -1.5d
+			description: ["You need 2x2 water sources surrounded by dirt, then throw the Diamond in"]
+			id: "06B50256956825EB"
+			tasks: [{
+				id: "3EBFB21140882357"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			rewards: [{
+				id: "44FCB8B8F9AAC7A4"
+				type: "item"
+				item: "delightful:cheeseburger"
+				count: 3
+			}]
+		}
+		{
+			title: "Forever Midnight"
+			x: 9.5d
+			y: -1.5d
+			dependencies: ["06B50256956825EB"]
+			dependency_requirement: "all_started"
+			id: "7D1CC2CB6F2E00B5"
+			tasks: [{
+				id: "6E079730194286ED"
+				type: "dimension"
+				dimension: "twilightforest:twilight_forest"
+			}]
+			rewards: [{
+				id: "5E9E0DA1DB36D0ED"
+				type: "item"
+				item: "pamhc2foodextended:onigiriitem"
+				count: 5
+			}]
+		}
+		{
+			title: "Kill the Lich"
+			icon: "twilightforest:lich_trophy"
+			x: 11.5d
+			y: -3.5d
+			description: ["Dangeling around in his Tower above the ground"]
+			dependencies: ["7D1CC2CB6F2E00B5"]
+			id: "7D688BA8C67CE64C"
+			tasks: [{
+				id: "6EFCCF413EF877F2"
+				type: "kill"
+				icon: {
+					id: "twilightforest:twilight_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "twilightforest:lich"
+				value: 1L
+			}]
+			rewards: [{
+				id: "22D53E0FB647D230"
+				type: "item"
+				item: "minecolonies:golden_bread"
+				count: 3
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.5d
+			description: ["Legs > No Legs"]
+			dependencies: ["7D1CC2CB6F2E00B5"]
+			dependency_requirement: "all_started"
+			id: "168B6B34B004130E"
+			tasks: [{
+				id: "1542BE030E51AFBD"
+				type: "kill"
+				title: "Kill the Snake"
+				icon: "twilightforest:naga_trophy"
+				entity: "twilightforest:naga"
+				value: 1L
+			}]
+			rewards: [{
+				id: "3A7D82E8191FD833"
+				type: "item"
+				item: "pamhc2foodcore:gummybearsitem"
+				count: 8
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.5d
+			description: ["Head by Head"]
+			dependencies: ["7D1CC2CB6F2E00B5"]
+			dependency_requirement: "all_started"
+			id: "5CE18D2AA2FB3F58"
+			tasks: [{
+				id: "3C835DEC6339989E"
+				type: "kill"
+				title: "Kill the Hydra"
+				icon: "twilightforest:hydra_trophy"
+				entity: "greekfantasy:hydra"
+				value: 1L
+			}]
+			rewards: [{
+				id: "69DC2B9CF36958B5"
+				type: "item"
+				item: "pamhc2foodextended:rainbowcurryitem"
+				count: 3
+			}]
+		}
+	]
+}

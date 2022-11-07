@@ -1,0 +1,11 @@
+{
+	id: "4096E9DC587BAFB5"
+	group: "7FB36A7A2C0B0283"
+	order_index: 2
+	filename: "gobber"
+	title: "Gobber"
+	icon: "gobber2:gobber2_glob_nether"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

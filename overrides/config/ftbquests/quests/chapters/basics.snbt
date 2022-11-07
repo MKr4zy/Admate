@@ -1,0 +1,154 @@
+{
+	id: "73FA0048FB9630AC"
+	group: ""
+	order_index: 0
+	filename: "basics"
+	title: "Basics"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "prefab:item_start_house"
+			x: -1.5d
+			y: -7.0d
+			description: ["At the beginning of your journey you were given an Blue Prefab Blueprint which contains keys to a free starting structure"]
+			dependencies: ["52C45392B28A7F43"]
+			id: "215D125877712C17"
+			tasks: [{
+				id: "04177668C12F120B"
+				type: "checkmark"
+				title: "Start Housing"
+			}]
+			rewards: [
+				{
+					id: "1CF5E1849E66BA10"
+					type: "item"
+					item: "minecraft:torch"
+					count: 4
+				}
+				{
+					id: "55239E8166D6BDD3"
+					type: "item"
+					item: "minecraft:chest"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Eat all the things"
+			icon: "solcarrot:food_book"
+			x: 2.0d
+			y: -7.0d
+			description: [
+				"This modpack gives you bonus hearts from eating new stuff"
+				"Check out Pam's Harvestcraft for alot of variations"
+				"Also check /foodlist size for your eaten halfshanks"
+			]
+			dependencies: ["52C45392B28A7F43"]
+			id: "6473D412B4C012ED"
+			tasks: [{
+				id: "38F7DE612FB6F47D"
+				type: "checkmark"
+				title: "Let me eat my lunch"
+			}]
+			rewards: [
+				{
+					id: "3CA0817C633348B2"
+					type: "item"
+					item: "solcarrot:food_book"
+				}
+				{
+					id: "62AE01615A524086"
+					type: "item"
+					item: "pamhc2crops:bakedsweetpotatoitem"
+					count: 2
+				}
+			]
+		}
+		{
+			icon: "projectexpansion:final_star"
+			x: 0.0d
+			y: -4.5d
+			description: [
+				"Welcome to your journey of AdMaTe!"
+				"Check further quest for guidelines as you play, tough you can ignore the quests aswell if you want to."
+				""
+				"Please report any issues to us on https://github.com/Mkr4zy/Admate/issues"
+				""
+				"Anyways have a cookie!"
+			]
+			id: "52C45392B28A7F43"
+			tasks: [{
+				id: "6D35613CCE0FC9CA"
+				type: "checkmark"
+				title: "Start your journey"
+			}]
+			rewards: [{
+				id: "49CDC1F2A495AC52"
+				type: "item"
+				item: "minecraft:cookie"
+			}]
+		}
+		{
+			title: "Expanding your residence"
+			icon: "prefab:item_starter_farm"
+			x: -1.5d
+			y: -9.0d
+			description: [
+				"Farming is hard work"
+				"Grab some seeds and make yourself an coffee :)"
+			]
+			dependencies: ["215D125877712C17"]
+			id: "6B07F526DF9CA755"
+			tasks: [{
+				id: "4B4BB20AB6C0F066"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [
+				{
+					id: "6A490ED3FEC94C67"
+					type: "item"
+					item: "prefab:item_starter_farm"
+				}
+				{
+					id: "5D2231F2D2A11A94"
+					type: "item"
+					item: "pamhc2crops:coffeebeanseeditem"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Mining made easy"
+			x: -2.0d
+			y: -4.0d
+			description: [
+				"FTB Ultimine is in the house!"
+				"Hold your zircumflex key to start mining multiple blocks at the same time... or change your key in the settings."
+				""
+				"PS: This works also for alot of other blocks. Take care and keep ground."
+			]
+			dependencies: ["52C45392B28A7F43"]
+			id: "2E48B0A9C36F85F3"
+			tasks: [{
+				id: "4346B51A4388BCAF"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B62F829417B6F51"
+				type: "item"
+				item: "pamhc2foodextended:grandmasmacaronicasseroleitem"
+				count: 2
+			}]
+		}
+	]
+}
