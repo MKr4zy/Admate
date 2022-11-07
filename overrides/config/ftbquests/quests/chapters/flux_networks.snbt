@@ -7,5 +7,201 @@
 	icon: "fluxnetworks:flux_dust"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Obtaining Flux"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Step 1: Find some Bedrock."
+				""
+				"Step 2: Place some Obsidian above it, leaving one block space in between"
+				""
+				"Step 3: Throw some Redstone Dust in the gap left by the Bedrock and Obsidian."
+				""
+				"Step 4: Left-click the Obsidian. The Obsidian will crush the Redstone Dust against the Bedrock and create Flux!"
+				""
+				"There is no limit to the amount of Redstone Dust you can use each time"
+				"https://github.com/SonarSonic/Flux-Networks/wiki/Getting-Started#obtaining-flux"
+			]
+			id: "0AF0A370BC83F97E"
+			tasks: [{
+				id: "38957C0AAAF90EB3"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+			}]
+			rewards: [
+				{
+					id: "50FC266222654AA4"
+					type: "item"
+					item: "fluxnetworks:flux_dust"
+					count: 16
+				}
+				{
+					id: "6CCC2DCA2ADBF8BE"
+					type: "item"
+					item: "pamhc2crops:bakedturnipitem"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Wireless Charging"
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Only works with the controller"
+			dependencies: ["0AF0A370BC83F97E"]
+			id: "1DD7B95CBD5026CB"
+			tasks: [{
+				id: "06555CA346A12115"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+			rewards: [
+				{
+					id: "5D344DE52CD9EB31"
+					type: "item"
+					item: "twilightforest:firefly"
+					count: 3
+				}
+				{
+					id: "076D39D730364A5F"
+					type: "item"
+					item: "pamhc2foodcore:carrotbreaditem"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Wireless Storage I"
+			x: 3.0d
+			y: 0.0d
+			description: ["Used to Store Energy in the network"]
+			dependencies: ["0AF0A370BC83F97E"]
+			id: "62B63B34345906CF"
+			tasks: [{
+				id: "3CFDB2288CCB6FCC"
+				type: "item"
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+			rewards: [
+				{
+					id: "71705A2656910AEC"
+					type: "item"
+					item: "fluxnetworks:flux_dust"
+					count: 16
+				}
+				{
+					id: "53DACB63D67F7972"
+					type: "item"
+					item: "pamhc2foodcore:macncheeseitem"
+				}
+			]
+		}
+		{
+			title: "Retrieving wireless energy"
+			x: 0.0d
+			y: 2.0d
+			description: [""]
+			dependencies: ["0AF0A370BC83F97E"]
+			id: "705F81E7EF2FD086"
+			tasks: [{
+				id: "5ECFD9CB462D3D76"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+			rewards: [
+				{
+					id: "4AB987EC0484849C"
+					type: "item"
+					item: "minecraft:ender_eye"
+					count: 4
+				}
+				{
+					id: "758140479F4AF10A"
+					type: "item"
+					item: "pamhc2crops:bakedrutabagaitem"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Injecting wireless energy"
+			x: -2.5d
+			y: 0.0d
+			description: ["Place it onto your energy cable or generators directly."]
+			dependencies: ["0AF0A370BC83F97E"]
+			id: "36C46D947E099CF0"
+			tasks: [{
+				id: "22E9EF4127B3F3A3"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+			rewards: [
+				{
+					id: "4CCEFA2693E66FF7"
+					type: "item"
+					item: "minecraft:ender_eye"
+				}
+				{
+					id: "1A803A166F8D126B"
+					type: "item"
+					item: "fluxnetworks:flux_dust"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			description: ["Manage your network on the go - because you can."]
+			dependencies: ["0AF0A370BC83F97E"]
+			id: "6FD62FC222C3BF6B"
+			tasks: [{
+				id: "4EA3C31373417EF7"
+				type: "item"
+				item: "fluxnetworks:flux_configurator"
+			}]
+			rewards: [{
+				id: "14F6CECCD22C8EF9"
+				type: "item"
+				item: "pickletweaks:diamond_apple"
+			}]
+		}
+		{
+			title: "Wireless Storage II"
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["62B63B34345906CF"]
+			id: "0F971327D7021FC7"
+			tasks: [{
+				id: "0D674C24E1CA25CB"
+				type: "item"
+				item: "fluxnetworks:herculean_flux_storage"
+			}]
+			rewards: [{
+				id: "1898F34D16F5C051"
+				type: "item"
+				item: "pamhc2foodextended:passionfruityogurtitem"
+				count: 2
+			}]
+		}
+		{
+			title: "Wireless Storage III"
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["0F971327D7021FC7"]
+			id: "38F5826665B5AA68"
+			tasks: [{
+				id: "73EED6F7BBD68A36"
+				type: "item"
+				item: "fluxnetworks:gargantuan_flux_storage"
+			}]
+			rewards: [{
+				id: "7DC5F6C1698B7569"
+				type: "item"
+				item: "pamhc2foodextended:lemonjellysandwichitem"
+			}]
+		}
+	]
 }

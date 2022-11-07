@@ -4,6 +4,7 @@
 	order_index: 0
 	filename: "project_e"
 	title: "ProjectE"
+	icon: "projecte:transmutation_tablet"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -129,6 +130,94 @@
 				item: "pamhc2foodextended:lemonaideitem"
 				count: 3
 			}]
+		}
+		{
+			title: "Fueling with ProjectE I"
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["6E95774A742BC2FE"]
+			id: "32D04BA9428FC428"
+			tasks: [{
+				id: "564CC72DF402C6A1"
+				type: "item"
+				item: "projecte:alchemical_coal"
+			}]
+		}
+		{
+			title: "Fueling with ProjectE II"
+			x: -1.0d
+			y: 4.0d
+			dependencies: ["32D04BA9428FC428"]
+			id: "6DFFAB29005D4182"
+			tasks: [{
+				id: "29029792AE163CD7"
+				type: "item"
+				item: "projecte:mobius_fuel"
+			}]
+		}
+		{
+			title: "Fueling with ProjectE III"
+			x: -1.0d
+			y: 5.5d
+			dependencies: ["6DFFAB29005D4182"]
+			id: "107A1078AF2AC40C"
+			tasks: [{
+				id: "4F8AC18781DD9BCE"
+				type: "item"
+				item: "projecte:aeternalis_fuel"
+			}]
+		}
+		{
+			title: "Does it matter? Darkness edition"
+			x: 1.0d
+			y: 5.5d
+			dependencies: ["107A1078AF2AC40C"]
+			id: "41E42F5454FC23F0"
+			tasks: [{
+				id: "2130DC8B11A220D2"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
+		}
+		{
+			title: "Does it matter? Red edition"
+			x: 3.0d
+			y: 5.5d
+			dependencies: ["41E42F5454FC23F0"]
+			id: "49DD350BB9D67B5F"
+			tasks: [{
+				id: "1A8DC19974762450"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["477E5B3FB2F4B6EE"]
+			id: "2F6E362F7065FC83"
+			tasks: [{
+				id: "0531D26CE5D227A5"
+				type: "item"
+				item: {
+					id: "projectexpansion:knowledge_sharing_book"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "62A300267235DF81"
+					type: "item"
+					item: "projectexpansion:violet_matter"
+					count: 2
+				}
+				{
+					id: "79FF0A114439EB22"
+					type: "item"
+					item: "pamhc2foodextended:rootbeersodaitem"
+				}
+			]
 		}
 	]
 }

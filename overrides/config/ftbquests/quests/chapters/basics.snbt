@@ -13,6 +13,7 @@
 			y: -7.0d
 			description: ["At the beginning of your journey you were given an Blue Prefab Blueprint which contains keys to a free starting structure"]
 			dependencies: ["52C45392B28A7F43"]
+			hide: true
 			id: "215D125877712C17"
 			tasks: [{
 				id: "04177668C12F120B"
@@ -37,14 +38,15 @@
 		{
 			title: "Eat all the things"
 			icon: "solcarrot:food_book"
-			x: 2.0d
-			y: -7.0d
+			x: 1.5d
+			y: -6.5d
 			description: [
 				"This modpack gives you bonus hearts from eating new stuff"
 				"Check out Pam's Harvestcraft for alot of variations"
 				"Also check /foodlist size for your eaten halfshanks"
 			]
 			dependencies: ["52C45392B28A7F43"]
+			hide: true
 			id: "6473D412B4C012ED"
 			tasks: [{
 				id: "38F7DE612FB6F47D"
@@ -122,8 +124,8 @@
 		}
 		{
 			title: "Mining made easy"
-			x: -2.0d
-			y: -4.0d
+			x: -3.0d
+			y: -5.0d
 			description: [
 				"FTB Ultimine is in the house!"
 				"Hold your zircumflex key to start mining multiple blocks at the same time... or change your key in the settings."
@@ -131,6 +133,7 @@
 				"PS: This works also for alot of other blocks. Take care and keep ground."
 			]
 			dependencies: ["52C45392B28A7F43"]
+			hide: true
 			id: "2E48B0A9C36F85F3"
 			tasks: [{
 				id: "4346B51A4388BCAF"

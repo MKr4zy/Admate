@@ -27,8 +27,8 @@
 		}
 		{
 			title: "Need help finding those Sky Rocks?"
-			x: 2.0d
-			y: -0.5d
+			x: 2.5d
+			y: 0.0d
 			shape: "hexagon"
 			subtitle: "How this thing works? I have no f***ing idea..."
 			description: ["By making yourself one of these, It'll be easier to find the big Space Rocks"]
