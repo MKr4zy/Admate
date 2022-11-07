@@ -1,0 +1,8 @@
+# exclude everything
+overrides/*
+
+# exception to the rule
+!overrides/config/*
+!overrides/kubejs/*
+!overrides/_CHANGELOG.txt
+!overrides/options.txt
