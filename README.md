@@ -37,7 +37,7 @@ Honarable to mention mods: Minecolonies, The Abyss, Journeymap, Create, Quark an
 
 ### Dev Environment
 - Go into git bash and tell it to follow symlinks `git config --global core.symlinks true`
-- Clone the repository to your favorite location (e.g. C:\Users\%username%\Documents\GitHub\Admate)
+- Clone the repository to your favorite location (e.g. `C:\Users\%username%\Documents\GitHub\Admate`)
 - Remove the overrides folder
 - Create an mklink junction `mklink /j overrides "C:\Users\%username%\curseforge\minecraft\Instances\Admate-DEV\"`
 - Sync the repository to make sure it works
