@@ -10,7 +10,7 @@
 	quests: [
 		{
 			title: "Find your first Meteorite"
-			x: 1.5d
+			x: 1.0d
 			y: -1.5d
 			subtitle: "Big Fallen Rocks from space. hope they didn't destroy a village or something.."
 			description: ["Finding these Meteorites is the key to start Applied Energistics"]
@@ -27,7 +27,7 @@
 		}
 		{
 			title: "Need help finding those Sky Rocks?"
-			x: 2.5d
+			x: 6.0d
 			y: 0.0d
 			shape: "hexagon"
 			subtitle: "How this thing works? I have no f***ing idea..."
@@ -43,7 +43,7 @@
 		}
 		{
 			title: "More exploration incomming"
-			x: 4.0d
+			x: 3.5d
 			y: -1.5d
 			subtitle: "Sorry, the only way arround this is to copy them from another player who has them already."
 			description: [
@@ -162,7 +162,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 8.0d
 			y: 0.0d
 			description: [
 				"This Cable can transfer 8 Channels."
@@ -182,7 +182,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 8.0d
 			y: 1.5d
 			description: ["And this one 32. But not all blocks can connect directly to this cable."]
 			dependencies: ["07CCFD65218544C3"]
@@ -194,8 +194,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 0.5d
+			x: 10.5d
+			y: 1.5d
 			dependencies: [
 				"07CCFD65218544C3"
 				"69C244C1E0C07C55"
@@ -212,8 +212,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -0.5d
+			x: 10.5d
+			y: 0.0d
 			description: [
 				"Via this chest you can access contents of drives directly."
 				"Can also be used to store collors in the collor applicator f.e."
