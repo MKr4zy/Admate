@@ -1,36 +1,39 @@
-// This script was made by choombdev for Odyssey 3, reusing it without explicit permission is not allowed.
-
 onEvent('jei.hide.items', event => {
-	// Overpowered Items
-		// Alkashetry Tome
+
+	// Creative items
+	event.hide(/^creative$/)
+	
+	// Alkashetry Tome
 	event.hide('reliquary:alkahestry_tome')
-		// Uncrafting Table
+	
+	// Uncrafting Table
 	event.hide('twilightforest:uncrafting_table')
 	event.hide('cyclic:uncrafter')
 	
-	// Uncraftables / Useless
-		// Spawn Eggs
+	// Spawn Eggs
 	event.hide('/_spawn_egg$/')
-		// AE2 Facades
+	
+	// AE2 Facades
 	event.hide(Item.of('ae2:facade').ignoreNBT())
 	event.hide(/^ae2:facade$/)
 
-		// Tinker's Construct 
+	// Tinker's Construct 
 	event.hide('#tconstruct:modifiable')
 	event.hide(Item.of('tconstruct:potion_bucket').ignoreNBT())
 
-	  	// Mekanism Tanks
+	// Mekanism Tanks
 	event.hide(Item.of('mekanism:creative_chemical_tank').ignoreNBT())
 	event.hide(Item.of('mekanism:creative_fluid_tank').ignoreNBT())
 
-		// Rainbow Furnace
+	// Rainbow Furnace
 	event.hide('ironfurnaces:million_furnace')
 	event.hide('ironfurnaces:rainbow_plating')
 	event.hide('ironfurnaces:rainbow_core')
-	   // Bamboo Spiked Tips
+	
+	// Bamboo Spiked Tips
 	event.hide('supplementaries:bamboo_spikes_tipped')
 
-	   // Reliquary Magazines
+	// Reliquary Magazines
 	event.hide(Item.of('reliquary:neutral_magazine').ignoreNBT())
 	event.hide(Item.of('reliquary:neutral_bullet').ignoreNBT())
 
