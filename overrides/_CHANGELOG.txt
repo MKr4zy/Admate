@@ -1,18 +1,18 @@
 # CHANGELOG
 
-## Version: 1.2 dev.1
+## Version: 1.2.1
+
 ### Mods
-- Added: AdvancedPeripherals-0.7.19r.jar
+- Removed: ftb-industrial-contraptions-1802.1.6-build.197.jar
 
-### Configs:
-- Changed: config\ProjectE\client.toml shiftEmcToolTips = false -> true
-- Changed: config\ProjectE\server.toml covalenceLoss = 1.0 -> 0.5
-- Changed: config\ProjectE\server.toml pickaxeAoeVeinMining = false -> true
-- Changed: config\project-expansion.toml emcDisplay = true -> false
-- Changed: config\debugify.json "MC-147605": from true to false
-- Changed: config\bcc-common.toml - Configured our Modpack values
+### Configs
+- Changed: Minecolonies server config to forceload all chunks of the colony \%world%\serverconfig\minecolonies-server.toml
+- Changed: ProjectExpansions recipes to make them more Challenging
+- Changed: config\quark-common.toml to disable MatrixEnchanting
+- Added: Config for custom emc values
 
-## Version: 1.2
+
+## Version: 1.2.0
 
 ### Mods
 - Removed: AoA3-1.18.2-3.6.6.jar
@@ -32,7 +32,6 @@
 - Removed: tetra-1.18.2-4.10.1.jar
 - Removed: deepresonance-3.0.15.jar
 - Removed: ChiselsBits-forge-1.18.2-1.2.114-universal.jar
-- Removed: ftb-industrial-contraptions-1802.1.6-build.197.jar
 - Changed: ftb-quests-forge-1802.3.8-build.101.jar to  ftb-quests-forge-1802.3.9-build.130.jar
 - Changed: ftb-library-forge-1802.3.6-build.140.jar to ftb-library-forge-1802.3.7-build.154.jar
 - Added: kubejs-mekanism-1802.1.3-build.8.jar
@@ -42,11 +41,18 @@
 - Added: kubejs-thermal-1802.1.5-build.14.jar
 - Added: kubejs-create-forge-1802.2.2-build.28.jar
 - Added: kubejs-forge-1802.5.5-build.552.jar
+- Added: AdvancedPeripherals-0.7.19r.jar
 
 ### Configs
 - Changed: config\rubidium_extras.toml "Hide JEI Until Searching" true to false
 - Changed: config\jei-client.toml reduce rows and columns, enable SlowMemSearch
 - Changed: options.txt to enableVsync:false
+- Changed: config\ProjectE\client.toml shiftEmcToolTips = false -> true
+- Changed: config\ProjectE\server.toml covalenceLoss = 1.0 -> 0.5
+- Changed: config\ProjectE\server.toml pickaxeAoeVeinMining = false -> true
+- Changed: config\project-expansion.toml emcDisplay = true -> false
+- Changed: config\debugify.json "MC-147605": from true to false
+- Changed: config\bcc-common.toml - Configured our Modpack values
 
 ### Oregeneration
 - Changed: config\Mekanism\world.toml to disable all ore gen but Fluorite and Salt

@@ -4,7 +4,7 @@
 	order_index: 0
 	filename: "pams_harvestcraft"
 	title: "Pam's HarvestCraft"
-	icon: "pamhc2crops:oatsitem"
+	icon: "pamhc2foodextended:jalapenoburgeritem"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -41,10 +41,10 @@
 				item: "pamhc2foodcore:bakewareitem"
 			}]
 			rewards: [{
-				id: "1C3D6A104E577256"
+				id: "79736F2AFD5A7F30"
 				type: "item"
-				item: "pamhc2crops:grapeitem"
-				count: 8
+				item: "pamhc2foodextended:vanillaitem"
+				count: 3
 			}]
 		}
 		{
@@ -80,10 +80,10 @@
 				item: "pamhc2foodcore:juiceritem"
 			}]
 			rewards: [{
-				id: "38D70CE388EBECC8"
+				id: "72F10B0C4B845822"
 				type: "item"
-				item: "minecraft:carrot"
-				count: 4
+				item: "pamhc2foodextended:elderberryjuiceitem"
+				count: 2
 			}]
 		}
 		{
@@ -98,6 +98,12 @@
 				type: "item"
 				item: "pamhc2foodcore:grinderitem"
 			}]
+			rewards: [{
+				id: "003CB8CDAE1BF168"
+				type: "item"
+				item: "pamhc2foodextended:misopasteitem"
+				count: 3
+			}]
 		}
 		{
 			title: "Mixin' it up"
@@ -110,6 +116,12 @@
 				id: "7DDED44A731F6551"
 				type: "item"
 				item: "pamhc2foodcore:mixingbowlitem"
+			}]
+			rewards: [{
+				id: "666A6696EDE82DB5"
+				type: "item"
+				item: "pamhc2foodextended:vanillaicecreamitem"
+				count: 2
 			}]
 		}
 		{
@@ -124,6 +136,12 @@
 				type: "item"
 				item: "pamhc2foodcore:potitem"
 			}]
+			rewards: [{
+				id: "4680C7A300AF342C"
+				type: "item"
+				item: "pamhc2foodextended:mapleoatmealitem"
+				count: 3
+			}]
 		}
 		{
 			title: "Keep on rolling"
@@ -136,6 +154,12 @@
 				id: "5461FE72BC95FA5F"
 				type: "item"
 				item: "pamhc2foodcore:rolleritem"
+			}]
+			rewards: [{
+				id: "01B2DF34AAB2C194"
+				type: "item"
+				item: "pamhc2foodcore:cookingoilitem"
+				count: 4
 			}]
 		}
 		{
@@ -150,6 +174,12 @@
 				type: "item"
 				item: "pamhc2foodcore:saucepanitem"
 			}]
+			rewards: [{
+				id: "6B30AF14C0E0FC9A"
+				type: "item"
+				item: "pamhc2foodextended:candiedlemonitem"
+				count: 5
+			}]
 		}
 		{
 			title: "Not the rockband tough"
@@ -163,6 +193,10 @@
 				type: "item"
 				item: "pamhc2foodcore:skilletitem"
 			}]
+			rewards: [{
+				id: "69EC48E7EE403C20"
+				type: "item"
+				item: "pamhc2foodextended:quesadillaitem"
 		}
 		{
 			title: "Cutting edges"
@@ -175,6 +209,12 @@
 				id: "07344D95EE5BB25F"
 				type: "item"
 				item: "pamhc2foodcore:cuttingboarditem"
+			}]
+			rewards: [{
+				id: "5A8FC84E9C9C88AC"
+				type: "item"
+				item: "pamhc2foodextended:grilledskewersitem"
+				count: 2
 			}]
 		}
 	]

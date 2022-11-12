@@ -1,4 +1,56 @@
 {
-  "entries": [],
-  "__comment": "Use the in-game commands to edit this file"
+  "entries": [
+    {
+      "item": "gobber2:gobber2_foo",
+      "emc": 5120
+    },
+    {
+      "item": "silentgems:alexandrite",
+      "emc": 2048
+    },
+    {
+      "item": "tinkers_reforged:red_beryl_gem",
+      "emc": 64
+    },
+    {
+      "item": "gobber2:gobber2_foo_end",
+      "emc": 10240
+    },
+    {
+      "item": "powah:uraninite",
+      "emc": 8192
+    },
+    {
+      "item": "minecraft:furnace",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:stone",
+      "emc": 1
+    },
+    {
+      "item": "projecte:alchemical_chest",
+      "emc": 8986
+    },
+    {
+      "item": "projecte:transmutation_table",
+      "emc": 10244
+    },
+    {
+      "item": "projecte:transmutation_tablet",
+      "emc": 2238472
+    },
+    {
+      "item": "fluxnetworks:flux_dust",
+      "emc": 128
+    },
+    {
+      "item": "computercraft:wireless_modem_normal",
+      "emc": 1032
+    },
+    {
+      "item": "forbidden_arcanus:xpetrified_orb",
+      "emc": 16482
+    }
+  ]
 }

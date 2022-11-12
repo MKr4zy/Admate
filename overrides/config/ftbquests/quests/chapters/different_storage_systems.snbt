@@ -4,7 +4,7 @@
 	order_index: 0
 	filename: "different_storage_systems"
 	title: "Different Storage Systems"
-	icon: "minecraft:chest"
+	icon: "minecraft:chest_minecart"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -28,7 +28,7 @@
 		}
 		{
 			icon: "refinedstorage:crafting_grid"
-			x: 2.5d
+			x: 0.0d
 			y: -2.0d
 			shape: "diamond"
 			subtitle: "This is not the most refined a storage system can get..."
@@ -44,11 +44,30 @@
 				type: "checkmark"
 				title: "Refined Storage"
 			}]
+			rewards: [
+				{
+					id: "1303A5608A63FA03"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "rebornstorage:rs_book"
+						}
+					}
+				}
+				{
+					id: "2212FD9F52E1E3CE"
+					type: "item"
+					item: "pamhc2trees:pinenutitem"
+					count: 3
+				}
+			]
 		}
 		{
 			icon: "storagenetwork:request"
 			x: -2.5d
-			y: -2.0d
+			y: 0.0d
 			shape: "diamond"
 			subtitle: "One Block to Rule them all... Sort of.."
 			description: [
@@ -64,11 +83,30 @@
 				type: "checkmark"
 				title: "Simple Storage"
 			}]
+			rewards: [
+				{
+					id: "1DE20E9999F8AEDE"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "storagenetwork:network_book"
+						}
+					}
+				}
+				{
+					id: "168A91BDDF0EFB2F"
+					type: "item"
+					item: "pamhc2trees:papayaitem"
+					count: 5
+				}
+			]
 		}
 		{
 			icon: "ae2:crafting_terminal"
 			x: 2.5d
-			y: 2.0d
+			y: 0.0d
 			shape: "diamond"
 			subtitle: "More Refined than the Refined System ... atleast in some ways..."
 			description: ["Applied Energistics is the most complex Storage Solution in this Modpack. But you can also do the most things with it. If you're willing to put in the work, the rewards will pay of.. Maybe.."]
@@ -84,8 +122,8 @@
 		{
 			title: "Drawers and Big Chests"
 			icon: "ironchest:iron_chest"
-			x: -2.5d
-			y: 2.0d
+			x: 0.0d
+			y: 2.5d
 			subtitle: "Yeaa, more Storage!!!!"
 			dependencies: ["23B2BCC9CF946D37"]
 			id: "155999EE94769031"
@@ -97,7 +135,7 @@
 		}
 		{
 			title: "Your First \"Specialized\" Storage"
-			x: -6.5d
+			x: -1.5d
 			y: 4.0d
 			subtitle: "The more different Items you squeeze into these, the less of each item will fit ;)"
 			description: [
@@ -120,7 +158,7 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: 1.5d
 			y: 4.0d
 			description: [
 				"The First upgrade to your simple Chest."

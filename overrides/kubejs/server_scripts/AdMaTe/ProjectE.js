@@ -37,6 +37,19 @@ onEvent('recipes', event => {
        F: 'ironfurnaces:emerald_furnace'
    })
 
+   // Basic Collector MK1
+   event.remove({output: 'projectexpansion:basic_collector'})
+   event.shaped('projectexpansion:basic_collector', [
+       'SGS',
+       'SAS',
+       'SFS'
+   ], {
+       G: 'create:framed_glass',
+       S: 'minecraft:glowstone',
+       A: 'projecte:aeternalis_fuel_block',
+       F: 'ironfurnaces:netherite_furnace'
+   })
+
    // Removing some OP stuff
    event.remove({output: 'projectexpansion:infinite_fuel'})
    event.remove({output: 'projectexpansion:infinite_steak'})
