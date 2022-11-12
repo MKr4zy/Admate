@@ -2,7 +2,7 @@
 overrides/*
 
 # exception to the rule
-!overrides/defaultconfigs/*
+!overrides/defaultconfigs
 !overrides/config/*
 !overrides/kubejs/*
 !overrides/_CHANGELOG.txt
