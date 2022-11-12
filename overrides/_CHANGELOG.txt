@@ -5,9 +5,9 @@
 ### Mods
 
 ### Configs
-- Changed: minecolonies server config to forceload all chunks of the colony \%world%\serverconfig\minecolonies-server.toml
-- Changed: ProjectE recipes to make them more Challenging (kubejs folder)
-- Added: server config for custom emc values 
+- Changed: Minecolonies server config to forceload all chunks of the colony \%world%\serverconfig\minecolonies-server.toml
+- Changed: ProjectE recipes to make them more Challenging
+- Added: Config for custom emc values
 
 
 ## Version: 1.2.0
