@@ -3,10 +3,12 @@
 ## Version: 1.2.1
 
 ### Mods
+- Removed: ftb-industrial-contraptions-1802.1.6-build.197.jar
 
 ### Configs
 - Changed: Minecolonies server config to forceload all chunks of the colony \%world%\serverconfig\minecolonies-server.toml
-- Changed: ProjectE recipes to make them more Challenging
+- Changed: ProjectExpansions recipes to make them more Challenging
+- Changed: config\quark-common.toml to disable MatrixEnchanting
 - Added: Config for custom emc values
 
 
@@ -30,7 +32,6 @@
 - Removed: tetra-1.18.2-4.10.1.jar
 - Removed: deepresonance-3.0.15.jar
 - Removed: ChiselsBits-forge-1.18.2-1.2.114-universal.jar
-- Removed: ftb-industrial-contraptions-1802.1.6-build.197.jar
 - Changed: ftb-quests-forge-1802.3.8-build.101.jar to  ftb-quests-forge-1802.3.9-build.130.jar
 - Changed: ftb-library-forge-1802.3.6-build.140.jar to ftb-library-forge-1802.3.7-build.154.jar
 - Added: kubejs-mekanism-1802.1.3-build.8.jar
