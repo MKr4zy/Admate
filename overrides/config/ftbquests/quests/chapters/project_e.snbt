@@ -28,11 +28,16 @@
 			]
 			id: "6E95774A742BC2FE"
 			tasks: [{
-				id: "16482A53322B14ED"
-				type: "kill"
-				icon: "ars_nouveau:glyph_wither"
-				entity: "minecraft:wither"
-				value: 1L
+				id: "32B254FD9A496C6C"
+				type: "item"
+				item: {
+					id: "projecte:philosophers_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
 			}]
 			rewards: [{
 				id: "60B1C93301FC45A1"
@@ -60,6 +65,7 @@
 				""
 			]
 			dependencies: ["6E95774A742BC2FE"]
+			hide: true
 			id: "477E5B3FB2F4B6EE"
 			tasks: [{
 				id: "1CA8716AB9BB503B"
@@ -136,6 +142,7 @@
 			x: -1.0d
 			y: 2.5d
 			dependencies: ["6E95774A742BC2FE"]
+			hide: true
 			id: "32D04BA9428FC428"
 			tasks: [{
 				id: "564CC72DF402C6A1"

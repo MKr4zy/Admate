@@ -17,5 +17,10 @@
 			type: "item"
 			item: "avaritia:infinity_block"
 		}]
+		rewards: [{
+			id: "76593E34ABE93E30"
+			type: "item"
+			item: "refinedstorageaddons:creative_wireless_crafting_grid"
+		}]
 	}]
 }

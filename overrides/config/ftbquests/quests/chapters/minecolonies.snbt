@@ -4,14 +4,24 @@
 	order_index: 0
 	filename: "minecolonies"
 	title: "MineColonies"
+	icon: "minecolonies:blockhutlibrary"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Supply Chain"
+			title: "Providing Proviant"
 			x: -3.5d
 			y: -2.5d
-			description: ["Start your Journey"]
+			description: [
+				"Once you have chosen a location for your colony, you must place a Supply Ship or Supply Camp."
+				"You can only place one of these per world."
+				""
+				"The Supply Camp/Ship gives you the Town Hall block you need to officially start your colony."
+				""
+				"They also have some other supplies you may need during the building of your colony."
+				""
+				"Once you have the Town Hall block and the build tool, the remaining camp/ship is just decoration."
+			]
 			id: "34A10C7193AE2A29"
 			tasks: [{
 				id: "75D02D7E54759F9C"
@@ -55,14 +65,162 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: -3.0d
+			x: -3.5d
+			y: -4.5d
+			description: [
+				"The build tool is THE most important tool in the entire mod!"
+				""
+				"With it, you can place all the buildings, worker huts, and even any structure scanned by you (see Schematics) perfectly."
+				""
+				"https://wiki.minecolonies.ldtteam.com/"
+			]
 			dependencies: ["34A10C7193AE2A29"]
+			invisible: true
 			id: "5A121B0FC8C3EEAD"
 			tasks: [{
 				id: "6EFAD6E0B5AD9A6C"
 				type: "item"
 				item: "structurize:sceptergold"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			description: [
+				"The Town Hall block is what actually creates the colony. It also functions as the center of it."
+				""
+				"This is where you start using the build tool to place buildings."
+				""
+				"Using the build tool ensures you can see exactly where the building will be, which direction it will face, and if it is at the right Y level (some buildings need to be raised to the correct Y level)."
+			]
+			dependencies: ["34A10C7193AE2A29"]
+			hide: true
+			id: "2CEAA6EF29601965"
+			tasks: [{
+				id: "2CB31D1FFB40081A"
+				type: "item"
+				item: "minecolonies:blockhuttownhall"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			description: [
+				"Before anything can be built, you need a Builder."
+				""
+				"The Builder must build their own Builder’s Hut before building any other huts, and they cannot build or upgrade a hut to a higher level than their own hut level."
+			]
+			dependencies: ["2CEAA6EF29601965"]
+			hide: true
+			id: "11F2E694B33BDC02"
+			tasks: [{
+				id: "0EA201F8577A5071"
+				type: "item"
+				item: "minecolonies:blockhutbuilder"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			description: [
+				"Your colonists will need a place to sleep and a house, so it is recommended to build a Tavern next."
+				""
+				"The Tavern also allows visitors to come to your colony, and you can recruit them to stay as citizens."
+			]
+			dependencies: ["11F2E694B33BDC02"]
+			hide: true
+			id: "7620FD19D57D96E2"
+			tasks: [{
+				id: "4278EF35C2E0698B"
+				type: "item"
+				item: "minecolonies:blockhuttavern"
+			}]
+		}
+		{
+			title: "Feeding your villagers"
+			x: 2.5d
+			y: -4.5d
+			dependencies: ["11F2E694B33BDC02"]
+			id: "105A8A63DC63BF89"
+			tasks: [{
+				id: "133B63B2B58219F5"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecolonies:blockhutfarmer"
+								Count: 1b
+							}
+							{
+								id: "minecolonies:blockhutchickenherder"
+								Count: 1b
+							}
+							{
+								id: "minecolonies:blockhutfisherman"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			description: [
+				"If your style is wood, it’s recommended to build a Forester’s Hut next."
+				""
+				"That way your new Forester can start gathering wood for your next builds and for tools and other items."
+			]
+			dependencies: ["11F2E694B33BDC02"]
+			id: "4372C8D3CE12B864"
+			tasks: [{
+				id: "0F62160B455B6C64"
+				type: "item"
+				item: "minecolonies:blockhutlumberjack"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			description: ["Stone and ores are another major need for any colony, so a Mine is the next logical step."]
+			dependencies: ["11F2E694B33BDC02"]
+			id: "178A85344302F0C0"
+			tasks: [{
+				id: "2ECDF7983657BAE1"
+				type: "item"
+				item: "minecolonies:blockhutminer"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			description: [
+				"At this point, you might be tired of bringing all of the resources to the Builder and taking them from the Fisher, Forester, Miner, etc. "
+				""
+				"You also might want to store items in one place. Well, the Warehouse and Courier’s Hut are the solution you are looking for!"
+			]
+			dependencies: ["11F2E694B33BDC02"]
+			id: "0F56AA2B5B711FDD"
+			tasks: [{
+				id: "3FED88AB9743A900"
+				type: "item"
+				item: "minecolonies:blockhutwarehouse"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			description: ["Couriers transport items between the Warehouse and all of the workplaces."]
+			dependencies: ["0F56AA2B5B711FDD"]
+			id: "54BFE67D7B4F3AB7"
+			tasks: [{
+				id: "051025AF2B2547DC"
+				type: "item"
+				item: "minecolonies:blockhutdeliveryman"
 			}]
 		}
 	]
