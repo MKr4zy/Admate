@@ -1,7 +1,7 @@
 onEvent('jei.hide.items', event => {
 
 	// Creative items
-	event.hide(/^creative$/)
+	//event.hide('/^creative$/')
 	
 	// Alkashetry Tome
 	event.hide('reliquary:alkahestry_tome')
@@ -9,13 +9,10 @@ onEvent('jei.hide.items', event => {
 	// Uncrafting Table
 	event.hide('twilightforest:uncrafting_table')
 	event.hide('cyclic:uncrafter')
-	
-	// Spawn Eggs
-	event.hide('/_spawn_egg$/')
-	
+
 	// AE2 Facades
-	event.hide(Item.of('ae2:facade').ignoreNBT())
-	event.hide(/^ae2:facade$/)
+	//event.hide(Item.of('ae2:facade').ignoreNBT())
+	//event.hide(/^ae2:facade$/)
 
 	// Tinker's Construct 
 	event.hide('#tconstruct:modifiable')
@@ -55,7 +52,8 @@ onEvent('jei.hide.items', event => {
 				'pink',
 				'gray',
 				'light_gray'];
-
+		
+		const RemoveItems = []
 		colors.forEach((color) => {
 			RemoveItems.push(
 				'refinedstorage:' + color + '_cable',
@@ -90,25 +88,7 @@ onEvent('jei.hide.items', event => {
 	onEvent('jei.add.items', event => {
 		event.add(Item.of('mekanism:creative_chemical_tank'))
 		event.add(Item.of('mekanism:creative_fluid_tank'))
-		// Spawn Eggs
-		event.add('minecraft:bat_spawn_egg')
-		event.add('minecraft:blaze_spawn_egg')
-		event.add('minecraft:chicken_spawn_egg')
-		event.add('minecraft:cow_spawn_egg')
-		event.add('minecraft:creeper_spawn_egg')
-		event.add('minecraft:goat_spawn_egg')
-		event.add('minecraft:horse_spawn_egg')
-		event.add('minecraft:mooshroom_spawn_egg')
-		event.add('minecraft:piglin_spawn_egg')
-		event.add('minecraft:pig_spawn_egg')
-		event.add('minecraft:sheep_spawn_egg')
-		event.add('minecraft:skeleton_spawn_egg')
-		event.add('minecraft:slime_spawn_egg')
-		event.add('minecraft:spider_spawn_egg')
-		event.add('minecraft:wither_skeleton_spawn_egg')
-		event.add('minecraft:zombie_spawn_egg')
-
-
+		//event.add(Item.of('ae2:facade', 1, '{item:"minecraft:stone"}'))
 	})
 
 	// Removing Categories from jei

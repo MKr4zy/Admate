@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## Version: 1.2.2
+
+### Mods
+- Updated: Applied Energistics 2
+- Updated: Project Expansion
+- Updated: Applied Energistics 2 Wireless Terminals
+- Added: AdvancedPeripherals-0.7.20r.jar
+
+### Configs
+
+- Changed: custom_emc.json to add more items => faster progression
+
+
 ## Version: 1.2.1
 
 ### Mods
