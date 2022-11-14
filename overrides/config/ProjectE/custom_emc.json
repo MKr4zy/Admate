@@ -51,6 +51,26 @@
     {
       "item": "forbidden_arcanus:xpetrified_orb",
       "emc": 16482
+    },
+    {
+      "item": "botania:livingwood_log",
+      "emc": 0
+    },
+    {
+      "item": "botania:black_lotus",
+      "emc": 16384
+    },
+    {
+      "item": "rftoolsdim:legendary_essence",
+      "emc": 466944
+    },
+    {
+      "item": "rftoolsdim:rare_essence",
+      "emc": 139264
+    },
+    {
+      "item": "rftoolsdim:common_essence",
+      "emc": 16842
     }
   ]
 }
