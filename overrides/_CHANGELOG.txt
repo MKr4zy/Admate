@@ -20,7 +20,6 @@
 - Updated: CoFH Core
 - Updated: Cooking for Blockheads
 - Updated: Corail Tombstone
-- Updated: Create Crafts & Additions
 - Updated: Cyclic
 - Updated: Dimensional Dungeons
 - Updated: Ensorcellation
@@ -74,6 +73,11 @@
 - Updated: Tinkers Reforged
 - Updated: Towns and Towers
 - Updated: XP Tome
+- Removed: Amplified Nether
+
+### Configs
+- Moved options into defaultoptions
+- Updated bcc
 
 
 ## Version: 1.2.2
