@@ -21,6 +21,9 @@
 - Updated: Cooking for Blockheads
 - Updated: Corail Tombstone
 - Updated: Create Crafts & Additions
+- Updated: Cyclic
+- Updated: Dimensional Dungeons
+- Updated: Ensorcellation
 
 
 ## Version: 1.2.2
