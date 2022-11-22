@@ -24,6 +24,9 @@
 - Updated: Cyclic
 - Updated: Dimensional Dungeons
 - Updated: Ensorcellation
+- Updated: Engineer's Decor
+- Updated: Evil Crafts
+- Updated: Fastload
 
 
 ## Version: 1.2.2
