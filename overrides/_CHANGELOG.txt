@@ -20,6 +20,7 @@
 - Updated: CoFH Core
 - Updated: Cooking for Blockheads
 - Updated: Corail Tombstone
+- Updated: Create Crafts & Additions
 
 
 ## Version: 1.2.2
