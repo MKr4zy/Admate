@@ -6,4 +6,3 @@ overrides/*
 !overrides/config/*
 !overrides/kubejs/*
 !overrides/_CHANGELOG.txt
-!overrides/options.txt
