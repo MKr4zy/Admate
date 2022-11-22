@@ -3,6 +3,10 @@ overrides/*
 
 # exception to the rule
 !overrides/defaultconfigs/*
-!overrides/config/*
-!overrides/kubejs/*
+!overrides/config
+!overrides/kubejs
 !overrides/_CHANGELOG.txt
+
+# Exceptions inside the exceptions
+overrides/config/defaultoptions/servers.dat
+overrides/kubejs/exported/tags
