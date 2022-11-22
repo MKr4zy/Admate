@@ -1,5 +1,27 @@
 # CHANGELOG
 
+## Version: 1.2.3
+
+### Mods
+- Updated: Mantle
+- Updated: Applied Energistics 2
+- Updated: Almost Unified
+- Updated: Better Compatibility Checker
+- Updated: AE2 Things
+- Updated: Aquaculture 2
+- Updated: Avaritia
+- Updated: Better Combat
+- Updated: Botany Pots
+- Updated: Building Gadgets
+- Updated: CC: Tweaked
+- Updated: ChanceCubes
+- Updated: ChemLib
+- Updated: Chunk-Pregenerator
+- Updated: CoFH Core
+- Updated: Cooking for Blockheads
+- Updated: Corail Tombstone
+
+
 ## Version: 1.2.2
 
 ### Mods

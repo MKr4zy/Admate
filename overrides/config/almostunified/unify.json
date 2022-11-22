@@ -3,7 +3,7 @@
     "minecraft",
     "kubejs",
     "crafttweaker",
-	"alltheores",
+    "alltheores",
     "create",
     "thermal",
     "immersiveengineering",
@@ -82,6 +82,7 @@
   ],
   "priorityOverrides": {},
   "ignoredTags": [],
+  "ignoredItems": [],
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag"
   ],

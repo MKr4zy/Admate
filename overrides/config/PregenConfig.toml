@@ -24,6 +24,11 @@
 	#Defines if the pregenerator should automatically restart on server start. Automatically set to true when a task is running, and automatically set to false if no task is running
 	auto-restart = false
 	info = true
+	#Defines if the pregenerator should kill the server when you get close to running out of memory for a while. This is to prevent World Corruption. Can be enabled/disabled without restart
+	"enable Memory Protector" = false
+	#Defines how much memory should be free before the Memory Protector should kick in.
+	#Range: > 32
+	"Required Free Memory" = 1024
 
 [client]
 
