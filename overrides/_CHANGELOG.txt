@@ -27,6 +27,53 @@
 - Updated: Engineer's Decor
 - Updated: Evil Crafts
 - Updated: Fastload
+- Updated: FerriteCore
+- Updated: Flux Networks
+- Updated: FTB Backups 2
+- Updated: FTB Chunks
+- Updated: FTB Quests
+- Updated: FTB Teams
+- Updated: GeckoLib
+- Updated: Gravitational Modulating Addutional Unit
+- Updated: Hex Casting
+- Updated: Immersive Armors
+- Updated: Item Filters
+- Updated: Just Enough Items
+- Updated: Just Enough Professions
+- Updated: kubeJS
+- Updated: LaserIO
+- Updated: Lootr
+- Updated: McJtyLib
+- Updated: Mining Gadgets
+- Updated: Modonomicon
+- Updated: MythicBotany
+- Updated: Nether's Exoticism
+- Updated: Not Enough Crashes
+- Updated: Occultism
+- Updated: Pam's HarvesCraft 2 - Crops
+- Updated: Powah!
+- Updated: Project Expansion
+- Updated: Restone Arsenal
+- Updated: RFTools Power
+- Updated: RFTools Storage
+- Updated: RFTools Utility
+- Updated: rhino
+- Updated: Rubidium Extra
+- Updated: Scalable Cat's Force
+- Updated: ShetiPhianCore
+- Updated: Simply Swords
+- Updated: Smooth Boot
+- Updated: Sophisticated Core
+- Updated: Supplementaries
+- Updated: Thermal Cultivation
+- Updated: Thermal Expansion
+- Updated: Thermal Foundation
+- Updated: Thermal Innovation
+- Updated: Thermal Integration
+- Updated: Thermal Locomotion
+- Updated: Tinkers Reforged
+- Updated: Towns and Towers
+- Updated: XP Tome
 
 
 ## Version: 1.2.2
